@@ -1,0 +1,79 @@
+3 0 18
+
+[---------------FMS------------------]          [------WND---------][---------WTR--_----][--Adjustment-------------------------------------------------------------------]
+     0        1        2          3         4        5          6         7          8        9        10       11        12      13       14       15      16        17   18
+    1h      10h      100h      herb                  ws        wd        th         hh
+2.792934 8.146456 14.571625 36.267559 81.614502 38.696712 224.392166 42.082092 71.857117 1.339199 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0
+2.467361 7.825198 12.884783 60.287675 85.111411 27.371850 320.259523 33.442342 41.116312 1.268959 1.192081 0.387404 1.202197 1.066329 0.907552 1.710879 0.901946 1.928710 0
+2.467361 7.825198 12.884783 36.267559 85.111412 27.371849 320.259521 33.442341 41.116310 1.268959 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0.000000 0
+
+individuo: 0 0 
+
+                float tl = individuo.parameters[6] - TEMP_VARIATION;
+                float hl = individuo.parameters[7] - HUM_VARIATION;
+                
+                
+baseFmsFile     = /home/edigley/doutorado_uab/so_oh_leite/two_stage_prediction_framework/jonquera/bases/base.fms
+			1 1h 10h 100h herb 100
+			2 1h 10h 100h herb 100
+			3 1h 10h 100h herb 100
+			...
+			254 1h 10h 100h herb 100
+			255 1h 10h 100h herb 100
+			256 1h 10h 100h herb 100
+baseWndFile     = /home/edigley/doutorado_uab/so_oh_leite/two_stage_prediction_framework/jonquera/bases/base.wnd
+			ENGLISH
+			7 21 2357 ws wd wc
+			7 25 0001 ws wd wc
+baseWtrFile     = /home/edigley/doutorado_uab/so_oh_leite/two_stage_prediction_framework/jonquera/bases/base.wtr
+			METRIC
+			7 21 0 0 2359 tl th hh hl 0
+			7 22 0 0 2359 tl th hh hl 0
+			7 23 0 0 2359 tl th hh hl 0
+			7 24 0 0 2359 tl th hh hl 0
+			7 25 0 0 2359 tl th hh hl 0
+baseAdjFile     = /home/edigley/doutorado_uab/so_oh_leite/two_stage_prediction_framework/jonquera/bases/base.adj
+			1 0.500000
+			2 0.750000
+			3 0.500000
+			4 0.500000
+			...
+			48 1.000000
+			49 1.000000
+			50 1.000000
+
+http://www.fire.org/downloads/farsite/WebHelp/referenceguide/pop_ups/pu_weather_file.htm
+	Month Day Precip Hour1 Hour2 Temp1 Temp2 Humid1 Humid2 Elevation
+		Precipitation 
+			is the daily rain amount specified in hundredths of an inch or millimeters (integer).
+		Hour1 
+			corresponds to the hour at which the minimum temperature was recorded (0-2400).
+		Hour2 
+			corresponds to the hour at which the maximum temperature was recorded (0-2400).
+		Temperatures 
+			(Temp1 is minimum; Temp2 is maximum) are in degrees Fahrenheit or Celsius (integer).
+		Humidities 
+			(Humid1 is maximum; Humid2 is minimum) are in percent, 0 to 99 (integer).
+		Elevation 
+			is in feet or meters above sea level. NOTE: these units (feet or meters) do not have to be the same as the landscape elevation theme (integer).
+
+http://www.fire.org/downloads/farsite/WebHelp/referenceguide/pop_ups/pu_wind_file.htm
+	Month Day Hour Speed Direction CloudCover
+		Hour 
+			is specified as 0-2400, to the nearest minute (integer).
+		Speed 
+			is either the 20ft windspeed specified in miles per hour or the 10m windspeed in kilometers per hour (integer)
+		Direction 
+			is specified in degrees, clockwise from north (0-360), (integer). 
+			A "-1" in the direction field indicates the winds to be up slope, similarly downslope winds can be specified with a "-2".
+		CloudCover 
+			is specified as a percentage, 0 to 100 (integer).
+			
+
+
+
+http://www.fire.org/downloads/farsite/WebHelp/referenceguide/pop_ups/pu_wind_file.htm
+http://www.fire.org/downloads/farsite/WebHelp/referenceguide/pop_ups/pu_weather_file.htm
+http://www.fire.org/downloads/farsite/WebHelp/referenceguide/input_menu/input_define_weatherwind_types.htm
+http://www.fire.org/downloads/farsite/WebHelp/referenceguide/input_menu/input_generate_from_types.htm
+http://www.soest.hawaii.edu/MET/Faculty/mm5/farsite_files.htm

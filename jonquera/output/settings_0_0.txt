@@ -1,0 +1,54 @@
+version = 43
+landscapeFile = /home/edigley/doutorado_uab/git/fire-scenarios/jonquera/landscape/jonquera.lcp
+FUELMOISTUREFILE = /home/edigley/doutorado_uab/git/fire-scenarios/jonquera/input/gen_1_ind_0.fms
+fuelmodelfile = /home/edigley/doutorado_uab/git/fire-scenarios/jonquera/aux_files/CustomFuel.fmd
+windFile0 = /home/edigley/doutorado_uab/git/fire-scenarios/jonquera/input/gen_1_ind_0.wnd
+adjustmentFile = /home/edigley/doutorado_uab/git/fire-scenarios/jonquera/input/gen_1_ind_0.adj
+weatherFile0 = /home/edigley/doutorado_uab/git/fire-scenarios/jonquera/input/gen_1_ind_0.wtr
+
+vectMake = false
+rastMake = true
+shapeMake = false
+
+timestep = 30m
+visibleStep = 60m
+secondaryVisibleStep = 24h
+perimeterResolution = 100m
+distanceResolution = 30m
+
+ignitionFile = /home/edigley/doutorado_uab/git/fire-scenarios/jonquera/perimetres/ignition.shp
+ignitionFileType = point
+RasterFileName = /home/edigley/doutorado_uab/git/fire-scenarios/jonquera/output/raster_0_0
+
+enableCrownfire = false
+linkCrownDensityAndCover = false
+embersFromTorchingTrees = false
+enableSpotFireGrowth = false
+nwnsBackingROS = false
+fireacceleration = false
+accelerationtranstion = 1m
+distanceChecking = fireLevel
+simulatePostFrontalCombustion = false
+fuelInputOption = absent
+calculationPrecision = normal
+
+useConditioningPeriod = false
+ConditMonth = 7
+ConditDay = 22
+StartMonth = 7
+StartDay = 22
+StartHour = 1200
+StartMin = 00
+EndMonth = 7
+EndDay = 22
+EndHour = 2000
+EndMin = 00
+
+rast_arrivaltime = true
+rast_fireIntensity = false
+rast_spreadRate = false
+rast_flameLength = false
+rast_heatPerArea = false
+rast_crownFire = false
+rast_fireDirection = false
+rast_reactionIntensity = false

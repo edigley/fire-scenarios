@@ -1,0 +1,22 @@
+Log File:  /home/edigley/doutorado_uab/git/fire-scenarios/jonquera/output/raster_0_0.LGR
+File units: Metric
+Landscape File:  /home/edigley/doutorado_uab/git/fire-scenarios/jonquera/landscape/jonquera.lcp
+Weather File 1: /home/edigley/doutorado_uab/git/fire-scenarios/jonquera/input/gen_1_ind_0.wtr
+Wind File 1: /home/edigley/doutorado_uab/git/fire-scenarios/jonquera/input/gen_1_ind_0.wnd
+Adjustment File:  /home/edigley/doutorado_uab/git/fire-scenarios/jonquera/input/gen_1_ind_0.adj
+Fuel Moisture File:  /home/edigley/doutorado_uab/git/fire-scenarios/jonquera/input/gen_1_ind_0.fms
+Conversion File:  None
+Custom Fuel Model File:  /home/edigley/doutorado_uab/git/fire-scenarios/jonquera/aux_files/CustomFuel.fmd
+Crown Fire: Disabled
+Ember Generation: Disabled
+Backing Spread: Calculated from Elliptical Dimensions
+Acceleration File Used:  None (feature toggled off)
+
+Simulation Started (Day Hour:Min): 7/22 12:00
+Simulation Ended (Day Hour:Min): 07/22  20:00
+Elapsed Time (Days Hours:Mins): 00 08:00
+
+Actual Time Step (min): 30.000000
+Visible Time Step (min): 60.000000
+Perimeter Resolution (m): 100.000000
+Distance Resolution (m): 30.000000
