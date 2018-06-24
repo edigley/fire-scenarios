@@ -2,6 +2,7 @@
 
 rm output/*
 rm Trace/*
+rm trace/*
 
 cd input/
 for i in `seq 1 10`; do rm pob_${i}*.*; rm gen_${i}_ind_*.???; done

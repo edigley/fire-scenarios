@@ -1,0 +1,11 @@
+1. Create the polygon in qGis
+	polygon_1_85_contour.asc
+2. Export the polygon created in 1. to a geotiff raster
+	gdal_rasterize -a_srs EPSG:4326 -ts 1612 1125 -burn 4 polygon_1_85_muito_igual.shp polygon_1_85_muito_igual.tif
+3. Import the resulting file from 2. in grass and export it as a ascii raster
+	polygon_1_85_muito_igual.tif -> polygon_1_85_contour_operation.asc
+4. Adapt the ascii raster file to the format expected in SPIF
+	./remove_last_column_and_last_row.sh polygon_1_85_contour_operation.asc 4
+5. Check the dimensions of the resulting file
+	
+
