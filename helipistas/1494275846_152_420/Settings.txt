@@ -1,0 +1,49 @@
+Inputs:
+   Landscape: LCP.LCP
+   Weather: WEATHER.WTR
+   Winds: WIND.WND
+   Adjustments: ADJUSMENTS.ADJ
+   Fuel Moistures: MOISTURES.FMS
+   Conversions: NONE
+   Custom Fuel Models: CUSTOMFUELS.FMD
+   Coarse Woody Fuels: NONE
+   Burning Period: NONE
+   Project File: 
+   Bookmark File: 
+Outputs:
+   Shapefile: OUTPUT/shape.shp
+   Vector file: OUTPUT/vector.VCT
+   Raster file: Raster File: OUTPUT/raster.toa
+   Raster file: Raster File: OUTPUT/raster.fli
+   Raster file: Raster File: OUTPUT/raster.ros
+   Raster file: Raster File: OUTPUT/raster.sdr
+   Display Units: METRIC
+   Output File Units: METRIC
+Model:
+   Parameters: TimeStep 10.0
+   Parameters: Visibles 60.0, 2880.0
+   Parameters: Perim Res 30.0
+   Parameters: Dist Res 30.0
+   Options: Crown Fire: DISABLED
+   Options: Spotting: DISABLED
+   Options: Spot Growth: DISABLED
+   Options: Ignition Delay: 0 mins
+   Options: Fire Level Dist. Check
+   Acceleration: OFF
+   Acceleration: DEFAULTS
+   Post Frontal: OFF
+   Dead Fuel Moisture: PRE-CALCULATED
+Simulate:
+   Duration: Conditioning (Mo/Day): 0/0
+   Duration: Starting (Mo/Day Hour:Min): 4/23 10:41
+   Duration: Ending (Mo/Day Hour:Min): 4/23 11:41
+   Options: Duration Reset: FALSE
+   Options: Restore Ignitions: FALSE
+   Options: Rotation Sensitive Ignitions: FALSE
+   Options: Show Fires as Grown: TRUE
+   Options: Ignition Spread Rates: TRUE
+   Options: Preserve Inactive Enclaves: TRUE
+   Options: Simulation Threads: 01
+Attack:
+View:
+   Viewport: MAXIMIZED

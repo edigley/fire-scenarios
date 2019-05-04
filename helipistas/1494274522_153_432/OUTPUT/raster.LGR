@@ -1,0 +1,22 @@
+Log File:  /home/edigley/doutorado_uab/1494274522_153_432/OUTPUT/raster.LGR
+File units: Metric
+Landscape File:  /home/edigley/doutorado_uab/1494274522_153_432/INPUT/LCP/LCP.lcp
+Weather File 1: /home/edigley/doutorado_uab/1494274522_153_432/INPUT/PARAMETERSIM/weather.wtr
+Wind File 1: /home/edigley/doutorado_uab/1494274522_153_432/INPUT/PARAMETERSIM/wind.wnd
+Adjustment File:  /home/edigley/doutorado_uab/1494274522_153_432/INPUT/PARAMETERSIM/adjusments.adj
+Fuel Moisture File:  /home/edigley/doutorado_uab/1494274522_153_432/INPUT/PARAMETERSIM/moistures.fms
+Conversion File:  None
+Custom Fuel Model File:  /home/edigley/doutorado_uab/1494274522_153_432/INPUT/PARAMETERSIM/customfuels.fmd
+Crown Fire: Disabled
+Ember Generation: Disabled
+Backing Spread: Calculated from Elliptical Dimensions
+Acceleration File Used:  None (feature toggled off)
+
+Simulation Started (Day Hour:Min): 4/26 1:00
+Simulation Ended (Day Hour:Min): 04/26  03:07
+Elapsed Time (Days Hours:Mins): 00 02:00
+
+Actual Time Step (min): 10.000000
+Visible Time Step (min): 120.000000
+Perimeter Resolution (m): 30.000000
+Distance Resolution (m): 30.000000

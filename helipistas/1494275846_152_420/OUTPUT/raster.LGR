@@ -1,0 +1,22 @@
+Log File:  OUTPUT/raster.LGR
+File units: Metric
+Landscape File:  INPUT/LCP/LCP.lcp
+Weather File 1: INPUT/PARAMETERSIM/weather.wtr
+Wind File 1: INPUT/PARAMETERSIM/wind.wnd
+Adjustment File:  INPUT/PARAMETERSIM/adjusments.adj
+Fuel Moisture File:  INPUT/PARAMETERSIM/moistures.fms
+Conversion File:  None
+Custom Fuel Model File:  INPUT/PARAMETERSIM/customfuels.fmd
+Crown Fire: Disabled
+Ember Generation: Disabled
+Backing Spread: Calculated from Elliptical Dimensions
+Acceleration File Used:  None (feature toggled off)
+
+Simulation Started (Day Hour:Min): 4/23 10:00
+Simulation Ended (Day Hour:Min): 04/23  11:41
+Elapsed Time (Days Hours:Mins): 00 01:00
+
+Actual Time Step (min): 10.000000
+Visible Time Step (min): 60.000000
+Perimeter Resolution (m): 30.000000
+Distance Resolution (m): 30.000000

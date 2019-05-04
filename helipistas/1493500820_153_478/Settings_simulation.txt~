@@ -1,0 +1,55 @@
+version = 43
+
+adjustmentFile   = /home/edigley/doutorado_uab/FARSITE/1493500820_153_478/INPUT/PARAMETERSIM/adjusments.adj
+fuelmoisturefile = /home/edigley/doutorado_uab/FARSITE/1493500820_153_478/INPUT/PARAMETERSIM/moistures.fms
+landscapeFile    = /home/edigley/doutorado_uab/FARSITE/1493500820_153_478/INPUT/LCP/LCP.lcp
+fuelmodelFile    = /home/edigley/doutorado_uab/FARSITE/1493500820_153_478/INPUT/PARAMETERSIM/customfuels.fmd
+weatherFile0     = /home/edigley/doutorado_uab/FARSITE/1493500820_153_478/INPUT/PARAMETERSIM/weather.wtr
+windFile0        = /home/edigley/doutorado_uab/FARSITE/1493500820_153_478/INPUT/PARAMETERSIM/wind.wnd
+timestep             = 10m
+visibleStep          = 1h
+secondaryVisibleStep = 48h
+perimeterResolution  = 30m
+distanceResolution   = 30m
+
+enableCrownfire               = false
+linkCrownDensityAndCover      = false
+embersFromTorchingTrees       = false
+enableSpotFireGrowth          = false
+nwnsBackingROS                = false
+fireacceleration              = false
+accelerationtranstion         = 1m
+distanceChecking              = fireLevel
+simulatePostFrontalCombustion = false
+fuelInputOption               = absent
+calculationPrecision          = normal
+useConditioningPeriod         = false
+
+ignitionFile     = /home/edigley/doutorado_uab/FARSITE/1493500820_153_478/INPUT/SHAPES/ignition.shp
+ignitionFileType = polygon
+
+StartMonth = 4
+StartDay   = 30
+StartHour  = 1200
+StartMin   = 32
+EndMonth   = 4
+EndDay     = 30
+EndHour    = 1300
+EndMin     = 32
+
+RastMake 	   = true
+RasterFileName = /home/edigley/doutorado_uab/FARSITE/1493500820_153_478/OUTPUT/raster
+VectMake 	   = true
+VectorFileName = /home/edigley/doutorado_uab/FARSITE/1493500820_153_478/OUTPUT/vector.VCT
+ShapeMake      = true
+shapefile      = /home/edigley/doutorado_uab/FARSITE/1493500820_153_478/OUTPUT/shape.shp
+
+RAST_ARRIVALTIME       = true
+RAST_FIREINTENSITY     = true
+RAST_SPREADRATE        = true
+RAST_FLAMELENGTH       = false
+RAST_HEATPERAREA       = false
+RAST_CROWNFIRE         = false
+RAST_FIREDIRECTION     = true
+RAST_REACTIONINTENSITY = false
+
