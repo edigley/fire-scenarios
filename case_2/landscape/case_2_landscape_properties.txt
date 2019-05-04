@@ -1,0 +1,102 @@
+Driver
+GDAL provider
+LCP
+FARSITE v.4 Landscape File (.lcp)
+Dataset Description
+/home/edigley/doutorado_uab/git/fire-scenarios/case_2/landscape/CASE_2.lcp
+DESCRIPTION=
+LATITUDE=40
+LINEAR_UNIT=Meters
+Band 1
+ELEVATION_FILE=Elevation.asc
+ELEVATION_MAX=914
+ELEVATION_MIN=434
+ELEVATION_NUM_CLASSES=-1
+ELEVATION_UNIT=0
+ELEVATION_UNIT_NAME=Meters
+STATISTICS_MAXIMUM=914
+STATISTICS_MEAN=666,71243576567
+STATISTICS_MINIMUM=434
+STATISTICS_STDDEV=94,653656213921
+Band 2
+SLOPE_FILE=Slope.asc
+SLOPE_MAX=25
+SLOPE_MIN=0
+SLOPE_NUM_CLASSES=27
+SLOPE_UNIT=0
+SLOPE_UNIT_NAME=Degrees
+STATISTICS_MAXIMUM=25
+STATISTICS_MEAN=-232,76954436451
+STATISTICS_MINIMUM=-9999
+STATISTICS_STDDEV=1524,1086829966
+Band 3
+ASPECT_FILE=Aspect.asc
+ASPECT_MAX=359
+ASPECT_MIN=0
+ASPECT_NUM_CLASSES=-1
+ASPECT_UNIT=2
+ASPECT_UNIT_NAME=Azimuth degrees
+STATISTICS_MAXIMUM=359
+STATISTICS_MEAN=-50,279068174032
+STATISTICS_MINIMUM=-9999
+STATISTICS_STDDEV=1559,9078926647
+Band 4
+FUEL_MODEL_FILE=fuel.asc
+FUEL_MODEL_MAX=22
+FUEL_MODEL_MIN=0
+FUEL_MODEL_NUM_CLASSES=7
+FUEL_MODEL_OPTION=0
+FUEL_MODEL_OPTION_DESC=no custom models AND no conversion file needed
+FUEL_MODEL_VALUES=0,0,1,5,9,10,21,22
+Band 5
+CANOPY_COV_FILE=Cover.asc
+CANOPY_COV_MAX=25
+CANOPY_COV_MIN=25
+CANOPY_COV_NUM_CLASSES=1
+CANOPY_COV_UNIT=1
+CANOPY_COV_UNIT_NAME=Percent
+Dimensions
+X: 210 Y: 139 Bands: 5
+Origin
+2.8211e+06,2.1491e+06
+Pixel Size
+100,-100
+No Data Value
+*NoDataValue not set* 
+Data Type
+Int16 - Sixteen bit signed integer 
+Pyramid overviews
+Layer Spatial Reference System
++proj=longlat +datum=WGS84 +no_defs
+Layer Extent (layer original source projection)
+2821100.0000000000000000,2135200.0000000000000000 : 2842100.0000000000000000,2149100.0000000000000000
+Band
+Band 1
+Band No
+1
+No Stats
+No stats collected yet
+Band
+Band 2
+Band No
+2
+No Stats
+No stats collected yet
+Band
+Band 3
+Band No
+3
+No Stats
+No stats collected yet
+Band
+Band 4
+Band No
+4
+No Stats
+No stats collected yet
+Band
+Band 5
+Band No
+5
+No Stats
+No stats collected yet 
