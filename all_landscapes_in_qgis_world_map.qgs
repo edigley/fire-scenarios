@@ -1,0 +1,1072 @@
+<!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
+<qgis projectname="" version="2.0.1-Dufour">
+    <title></title>
+    <mapcanvas>
+        <units>meters</units>
+        <extent>
+            <xmin>1862523.8490548999980092</xmin>
+            <ymin>-2047424.82005687663331628</ymin>
+            <xmax>8948564.43242676928639412</xmax>
+            <ymax>2290592.24265586258843541</ymax>
+        </extent>
+        <projections>1</projections>
+        <destinationsrs>
+            <spatialrefsys>
+                <proj4>+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                <srsid>1000</srsid>
+                <srid>3035</srid>
+                <authid>EPSG:3035</authid>
+                <description>ETRS89 / ETRS-LAEA</description>
+                <projectionacronym>laea</projectionacronym>
+                <ellipsoidacronym>GRS80</ellipsoidacronym>
+                <geographicflag>false</geographicflag>
+            </spatialrefsys>
+        </destinationsrs>
+    </mapcanvas>
+    <legend updateDrawingOrder="true" activeLayer="LCP20190303175355339">
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="CASE_10" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="CASE_1020190303173827482" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LCP" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="LCP20190303175355339" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LCP" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="LCP20190303175325670" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LCP" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="LCP20190303175232011" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LCP" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="LCP20190303175158601" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="LCP" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="LCP20190303175113155" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="ashley" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="ashley20190303174848243" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="CASE_9" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="CASE_920190303173738554" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="CASE_8" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="CASE_820190303173541003" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="CASE_7" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="CASE_720190303173347496" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="CASE_6" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="CASE_620190303173144802" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="CASE_5" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="CASE_520190303173101890" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="CASE_4" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="CASE_420190303172926704" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="CASE_3" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="CASE_320190303172856759" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="CASE_2" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="CASE_220190303172758393" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="CASE_1" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="CASE_120190303172611538" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="false" checked="Qt::Checked" name="jonquera" showFeatureCount="0">
+            <filegroup open="false" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="jonquera20190303172341264" visible="1"/>
+            </filegroup>
+        </legendlayer>
+        <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="CNTR_BN_01M_2016_3035" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="CNTR_BN_01M_2016_303520190303172218860" visible="1"/>
+            </filegroup>
+        </legendlayer>
+    </legend>
+    <projectlayers layercount="18">
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>CASE_1020190303173827482</id>
+            <datasource>./case_10/landscape/CASE_10.lcp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>CASE_10</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1008</srsid>
+                    <srid>3043</srid>
+                    <authid>EPSG:3043</authid>
+                    <description>ETRS89 / ETRS-TM31</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                    <rasterTransparency/>
+                    <redContrastEnhancement>
+                        <minValue>29.172</minValue>
+                        <maxValue>1518.66</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </redContrastEnhancement>
+                    <greenContrastEnhancement>
+                        <minValue>0.99</minValue>
+                        <maxValue>29.97</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </greenContrastEnhancement>
+                    <blueContrastEnhancement>
+                        <minValue>11.847</minValue>
+                        <maxValue>348.589</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </blueContrastEnhancement>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>CASE_120190303172611538</id>
+            <datasource>./case_1/landscape/CASE_1.lcp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>CASE_1</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1008</srsid>
+                    <srid>3043</srid>
+                    <authid>EPSG:3043</authid>
+                    <description>ETRS89 / ETRS-TM31</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                    <rasterTransparency/>
+                    <redContrastEnhancement>
+                        <minValue>530.993</minValue>
+                        <maxValue>976.438</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </redContrastEnhancement>
+                    <greenContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>9.942</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </greenContrastEnhancement>
+                    <blueContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>338.284</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </blueContrastEnhancement>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>CASE_220190303172758393</id>
+            <datasource>./case_2/landscape/CASE_2.lcp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>CASE_2</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1008</srsid>
+                    <srid>3043</srid>
+                    <authid>EPSG:3043</authid>
+                    <description>ETRS89 / ETRS-TM31</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                    <rasterTransparency/>
+                    <redContrastEnhancement>
+                        <minValue>482</minValue>
+                        <maxValue>834.8</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </redContrastEnhancement>
+                    <greenContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>4.952</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </greenContrastEnhancement>
+                    <blueContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>338.284</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </blueContrastEnhancement>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>CASE_320190303172856759</id>
+            <datasource>./case_3/landscape/CASE_3.lcp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>CASE_3</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1008</srsid>
+                    <srid>3043</srid>
+                    <authid>EPSG:3043</authid>
+                    <description>ETRS89 / ETRS-TM31</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                    <rasterTransparency/>
+                    <redContrastEnhancement>
+                        <minValue>262.04</minValue>
+                        <maxValue>817.57</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </redContrastEnhancement>
+                    <greenContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>10.94</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </greenContrastEnhancement>
+                    <blueContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>338.284</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </blueContrastEnhancement>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>CASE_420190303172926704</id>
+            <datasource>./case_4/landscape/CASE_4.lcp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>CASE_4</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1008</srsid>
+                    <srid>3043</srid>
+                    <authid>EPSG:3043</authid>
+                    <description>ETRS89 / ETRS-TM31</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                    <rasterTransparency/>
+                    <redContrastEnhancement>
+                        <minValue>79.019</minValue>
+                        <maxValue>579.653</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </redContrastEnhancement>
+                    <greenContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>3.901</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </greenContrastEnhancement>
+                    <blueContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>338.284</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </blueContrastEnhancement>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>CASE_520190303173101890</id>
+            <datasource>./case_5/landscape/CASE_5.lcp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>CASE_5</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1008</srsid>
+                    <srid>3043</srid>
+                    <authid>EPSG:3043</authid>
+                    <description>ETRS89 / ETRS-TM31</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                    <rasterTransparency/>
+                    <redContrastEnhancement>
+                        <minValue>201.784</minValue>
+                        <maxValue>792.266</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </redContrastEnhancement>
+                    <greenContrastEnhancement>
+                        <minValue>-7.312</minValue>
+                        <maxValue>22.844</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </greenContrastEnhancement>
+                    <blueContrastEnhancement>
+                        <minValue>-13.888</minValue>
+                        <maxValue>338.284</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </blueContrastEnhancement>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>CASE_620190303173144802</id>
+            <datasource>./case_6/landscape/CASE_6.lcp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>CASE_6</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1008</srsid>
+                    <srid>3043</srid>
+                    <authid>EPSG:3043</authid>
+                    <description>ETRS89 / ETRS-TM31</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                    <rasterTransparency/>
+                    <redContrastEnhancement>
+                        <minValue>282.96</minValue>
+                        <maxValue>1250.52</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </redContrastEnhancement>
+                    <greenContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>15.93</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </greenContrastEnhancement>
+                    <blueContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>338.284</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </blueContrastEnhancement>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>CASE_720190303173347496</id>
+            <datasource>./case_7/landscape/CASE_7.lcp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>CASE_7</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1008</srsid>
+                    <srid>3043</srid>
+                    <authid>EPSG:3043</authid>
+                    <description>ETRS89 / ETRS-TM31</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                    <rasterTransparency/>
+                    <redContrastEnhancement>
+                        <minValue>0</minValue>
+                        <maxValue>1013.1</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </redContrastEnhancement>
+                    <greenContrastEnhancement>
+                        <minValue>0</minValue>
+                        <maxValue>25.974</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </greenContrastEnhancement>
+                    <blueContrastEnhancement>
+                        <minValue>0</minValue>
+                        <maxValue>343.563</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </blueContrastEnhancement>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>CASE_820190303173541003</id>
+            <datasource>./case_8/landscape/CASE_8.lcp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>CASE_8</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1008</srsid>
+                    <srid>3043</srid>
+                    <authid>EPSG:3043</authid>
+                    <description>ETRS89 / ETRS-TM31</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                    <rasterTransparency/>
+                    <redContrastEnhancement>
+                        <minValue>375.048</minValue>
+                        <maxValue>671.607</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </redContrastEnhancement>
+                    <greenContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>-3.032</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </greenContrastEnhancement>
+                    <blueContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>338.284</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </blueContrastEnhancement>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>CASE_920190303173738554</id>
+            <datasource>./case_9/landscape/CASE_9.lcp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>CASE_9</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1008</srsid>
+                    <srid>3043</srid>
+                    <authid>EPSG:3043</authid>
+                    <description>ETRS89 / ETRS-TM31</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                    <rasterTransparency/>
+                    <redContrastEnhancement>
+                        <minValue>388.088</minValue>
+                        <maxValue>1228.6</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </redContrastEnhancement>
+                    <greenContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>20.92</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </greenContrastEnhancement>
+                    <blueContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>338.284</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </blueContrastEnhancement>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" minLabelScale="0" maxLabelScale="1e+08" geometry="Line" type="vector" hasScaleBasedVisibilityFlag="0" scaleBasedLabelVisibilityFlag="0">
+            <id>CNTR_BN_01M_2016_303520190303172218860</id>
+            <datasource>./ref-countries-2016-01m.shp/CNTR_BN_01M_2016_3035.shp/CNTR_BN_01M_2016_3035.shp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>CNTR_BN_01M_2016_3035</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=laea +lat_0=52 +lon_0=10 +x_0=4321000 +y_0=3210000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1000</srsid>
+                    <srid>3035</srid>
+                    <authid>EPSG:3035</authid>
+                    <description>ETRS89 / ETRS-LAEA</description>
+                    <projectionacronym>laea</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <provider encoding="System">ogr</provider>
+            <previewExpression></previewExpression>
+            <vectorjoins/>
+            <renderer-v2 symbollevels="0" type="singleSymbol">
+                <symbols>
+                    <symbol alpha="1" type="line" name="0">
+                        <layer pass="0" class="SimpleLine" locked="0">
+                            <prop k="capstyle" v="square"/>
+                            <prop k="color" v="11,208,182,255"/>
+                            <prop k="customdash" v="5;2"/>
+                            <prop k="customdash_unit" v="MM"/>
+                            <prop k="joinstyle" v="bevel"/>
+                            <prop k="offset" v="0"/>
+                            <prop k="offset_unit" v="MM"/>
+                            <prop k="penstyle" v="solid"/>
+                            <prop k="use_custom_dash" v="0"/>
+                            <prop k="width" v="0.26"/>
+                            <prop k="width_unit" v="MM"/>
+                        </layer>
+                    </symbol>
+                </symbols>
+                <rotation field=""/>
+                <sizescale field="" scalemethod="area"/>
+            </renderer-v2>
+            <customproperties/>
+            <blendMode>0</blendMode>
+            <featureBlendMode>0</featureBlendMode>
+            <layerTransparency>0</layerTransparency>
+            <displayfield>CNTR_BN_ID</displayfield>
+            <label>0</label>
+            <labelattributes>
+                <label fieldname="" text="Label"/>
+                <family fieldname="" name="Ubuntu"/>
+                <size fieldname="" units="pt" value="12"/>
+                <bold fieldname="" on="0"/>
+                <italic fieldname="" on="0"/>
+                <underline fieldname="" on="0"/>
+                <strikeout fieldname="" on="0"/>
+                <color fieldname="" red="0" blue="0" green="0"/>
+                <x fieldname=""/>
+                <y fieldname=""/>
+                <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+                <angle fieldname="" value="0" auto="0"/>
+                <alignment fieldname="" value="center"/>
+                <buffercolor fieldname="" red="255" blue="255" green="255"/>
+                <buffersize fieldname="" units="pt" value="1"/>
+                <bufferenabled fieldname="" on=""/>
+                <multilineenabled fieldname="" on=""/>
+                <selectedonly on=""/>
+            </labelattributes>
+            <editform></editform>
+            <editforminit></editforminit>
+            <annotationform></annotationform>
+            <editorlayout>generatedlayout</editorlayout>
+            <excludeAttributesWMS/>
+            <excludeAttributesWFS/>
+            <attributeactions/>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>LCP20190303175113155</id>
+            <datasource>./helipistas/1493500819_153_430/INPUT/LCP/LCP.lcp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>LCP</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1008</srsid>
+                    <srid>3043</srid>
+                    <authid>EPSG:3043</authid>
+                    <description>ETRS89 / ETRS-TM31</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                    <rasterTransparency/>
+                    <redContrastEnhancement>
+                        <minValue>93.706</minValue>
+                        <maxValue>32734.3</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </redContrastEnhancement>
+                    <greenContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>4.898</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </greenContrastEnhancement>
+                    <blueContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>338.284</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </blueContrastEnhancement>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>LCP20190303175158601</id>
+            <datasource>./helipistas/1493500820_153_478/INPUT/LCP/LCP.lcp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>LCP</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1008</srsid>
+                    <srid>3043</srid>
+                    <authid>EPSG:3043</authid>
+                    <description>ETRS89 / ETRS-TM31</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                    <rasterTransparency/>
+                    <redContrastEnhancement>
+                        <minValue>93.706</minValue>
+                        <maxValue>32734.3</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </redContrastEnhancement>
+                    <greenContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>4.898</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </greenContrastEnhancement>
+                    <blueContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>338.284</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </blueContrastEnhancement>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>LCP20190303175232011</id>
+            <datasource>./helipistas/1493500825_143_365/INPUT/LCP/LCP.lcp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>LCP</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1008</srsid>
+                    <srid>3043</srid>
+                    <authid>EPSG:3043</authid>
+                    <description>ETRS89 / ETRS-TM31</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                    <rasterTransparency/>
+                    <redContrastEnhancement>
+                        <minValue>0</minValue>
+                        <maxValue>327.67</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </redContrastEnhancement>
+                    <greenContrastEnhancement>
+                        <minValue>-13.104</minValue>
+                        <maxValue>6.948</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </greenContrastEnhancement>
+                    <blueContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>338.284</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </blueContrastEnhancement>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>LCP20190303175325670</id>
+            <datasource>./helipistas/1494274522_153_432/INPUT/LCP/LCP.lcp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>LCP</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1008</srsid>
+                    <srid>3043</srid>
+                    <authid>EPSG:3043</authid>
+                    <description>ETRS89 / ETRS-TM31</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                    <rasterTransparency/>
+                    <redContrastEnhancement>
+                        <minValue>93.706</minValue>
+                        <maxValue>32734.3</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </redContrastEnhancement>
+                    <greenContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>4.898</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </greenContrastEnhancement>
+                    <blueContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>338.284</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </blueContrastEnhancement>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>LCP20190303175355339</id>
+            <datasource>./helipistas/1494275846_152_420/INPUT/LCP/LCP.lcp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>LCP</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1008</srsid>
+                    <srid>3043</srid>
+                    <authid>EPSG:3043</authid>
+                    <description>ETRS89 / ETRS-TM31</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                    <rasterTransparency/>
+                    <redContrastEnhancement>
+                        <minValue>92.707</minValue>
+                        <maxValue>32734.3</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </redContrastEnhancement>
+                    <greenContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>13.934</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </greenContrastEnhancement>
+                    <blueContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>338.284</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </blueContrastEnhancement>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>ashley20190303174848243</id>
+            <datasource>./ashley/landscape/ashley.lcp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>ashley</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1008</srsid>
+                    <srid>3043</srid>
+                    <authid>EPSG:3043</authid>
+                    <description>ETRS89 / ETRS-TM31</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                    <rasterTransparency/>
+                    <redContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>1734.12</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </redContrastEnhancement>
+                    <greenContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>23.841</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </greenContrastEnhancement>
+                    <blueContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>307.21</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </blueContrastEnhancement>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+        <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+            <id>jonquera20190303172341264</id>
+            <datasource>./jonquera/landscape/jonquera.lcp</datasource>
+            <title></title>
+            <abstract></abstract>
+            <keywordList>
+                <value></value>
+            </keywordList>
+            <layername>jonquera</layername>
+            <srs>
+                <spatialrefsys>
+                    <proj4>+proj=utm +zone=31 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+                    <srsid>1008</srsid>
+                    <srid>3043</srid>
+                    <authid>EPSG:3043</authid>
+                    <description>ETRS89 / ETRS-TM31</description>
+                    <projectionacronym>utm</projectionacronym>
+                    <ellipsoidacronym>GRS80</ellipsoidacronym>
+                    <geographicflag>false</geographicflag>
+                </spatialrefsys>
+            </srs>
+            <customproperties>
+                <property key="identify/format" value="Value"/>
+            </customproperties>
+            <provider>gdal</provider>
+            <pipe>
+                <rasterrenderer opacity="1" alphaBand="-1" blueBand="3" greenBand="2" type="multibandcolor" redBand="1">
+                    <rasterTransparency/>
+                    <redContrastEnhancement>
+                        <minValue>0</minValue>
+                        <maxValue>774.065</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </redContrastEnhancement>
+                    <greenContrastEnhancement>
+                        <minValue>0</minValue>
+                        <maxValue>30.975</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </greenContrastEnhancement>
+                    <blueContrastEnhancement>
+                        <minValue>-9999</minValue>
+                        <maxValue>317.568</maxValue>
+                        <algorithm>StretchToMinimumMaximum</algorithm>
+                    </blueContrastEnhancement>
+                </rasterrenderer>
+                <brightnesscontrast brightness="0" contrast="0"/>
+                <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+                <rasterresampler maxOversampling="2"/>
+            </pipe>
+            <blendMode>0</blendMode>
+        </maplayer>
+    </projectlayers>
+    <properties>
+        <SpatialRefSys>
+            <ProjectCrs type="QString">EPSG:4326</ProjectCrs>
+            <ProjectCRSID type="int">1000</ProjectCRSID>
+            <ProjectionsEnabled type="int">1</ProjectionsEnabled>
+        </SpatialRefSys>
+        <Paths>
+            <Absolute type="bool">false</Absolute>
+        </Paths>
+        <Gui>
+            <SelectionColorBluePart type="int">0</SelectionColorBluePart>
+            <CanvasColorGreenPart type="int">255</CanvasColorGreenPart>
+            <CanvasColorRedPart type="int">255</CanvasColorRedPart>
+            <SelectionColorRedPart type="int">255</SelectionColorRedPart>
+            <SelectionColorAlphaPart type="int">255</SelectionColorAlphaPart>
+            <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
+            <CanvasColorBluePart type="int">255</CanvasColorBluePart>
+        </Gui>
+        <PositionPrecision>
+            <DecimalPlaces type="int">2</DecimalPlaces>
+            <Automatic type="bool">true</Automatic>
+        </PositionPrecision>
+    </properties>
+</qgis>
