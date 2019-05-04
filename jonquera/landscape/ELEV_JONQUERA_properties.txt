@@ -1,0 +1,32 @@
+Driver
+GDAL provider
+AAIGrid
+Arc/Info ASCII Grid
+Dataset Description
+/home/edigley/doutorado_uab/cluster/jonquera/ELEV_JONQUERA.asc
+Band 1
+STATISTICS_MAXIMUM=1219
+STATISTICS_MEAN=153,83209854661
+STATISTICS_MINIMUM=0
+STATISTICS_STDDEV=199,98423291579
+Dimensions
+X: 1612 Y: 1125 Bands: 1
+Origin
+480450,4.70905e+06
+Pixel Size
+30,-30
+No Data Value
+-9999 
+Data Type
+Float64 - Sixty four bit floating point 
+Pyramid overviews
+Layer Spatial Reference System
++proj=longlat +datum=WGS84 +no_defs
+Layer Extent (layer original source projection)
+480449.5000000000000000,4675298.2999999998137355 : 528809.5000000000000000,4709048.2999999998137355
+Band
+Band 1
+Band No
+1
+No Stats
+No stats collected yet 

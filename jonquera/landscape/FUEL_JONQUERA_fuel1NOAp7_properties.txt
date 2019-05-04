@@ -1,0 +1,32 @@
+Driver
+GDAL provider
+AAIGrid
+Arc/Info ASCII Grid
+Dataset Description
+/home/edigley/doutorado_uab/cluster/jonquera/FUEL_JONQUERA_fuel1NOAp7.asc
+Band 1
+STATISTICS_MAXIMUM=1
+STATISTICS_MEAN=1
+STATISTICS_MINIMUM=1
+STATISTICS_STDDEV=0
+Dimensions
+X: 1612 Y: 1125 Bands: 1
+Origin
+480450,4.70905e+06
+Pixel Size
+30,-30
+No Data Value
+-9999 
+Data Type
+Float64 - Sixty four bit floating point 
+Pyramid overviews
+Layer Spatial Reference System
++proj=longlat +datum=WGS84 +no_defs
+Layer Extent (layer original source projection)
+480449.5000000000000000,4675298.5000000000000000 : 528809.5000000000000000,4709048.5000000000000000
+Band
+Band 1
+Band No
+1
+No Stats
+No stats collected yet 
