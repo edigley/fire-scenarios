@@ -1,0 +1,26 @@
+Arkadia Fire
+	YEAR: 2011 (2011-08-26)
+
+Perimeter 1: 
+	AREA: 4.32 km²
+	PERIMETER: 10.0 km
+	StartTime: 2011-08-26 09:43
+	EndTime:   2011-08-26 11:27
+	Duration:  1h44 (104m)
+Perimeter 2:
+	AREA: 7.21 km²
+	Perimeter: 12.0 km
+	StartTime: 2011-08-26 11:27
+Perimeter 3:
+	AREA: 13.4 km²
+	PERIMETER: 15.8 km
+Perimeter 4:
+	AREA: 17.6 km²
+	PERIMETER: 18.6 km
+
+Prediction:
+	From: Perimeter 2
+	StartTime: 2011-08-26 11:27
+	EndTime:   2011-08-27 08:49
+	Duration:  20h22
+

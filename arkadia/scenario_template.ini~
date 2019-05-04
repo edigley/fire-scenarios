@@ -68,7 +68,7 @@ shapefile        = shape_$1_$2
 RasterFileName   = raster_$1_$2
 VectorFileName   = vector_$1_$2
 doRaster         = true
-doShape          = false
+doShape          = true
 doVector         = false
 
 ConditMonth      = 8
