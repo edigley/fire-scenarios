@@ -1,0 +1,55 @@
+version = 43
+
+adjustmentFile   = ashley.adj
+fuelmoisturefile = Aug11.fms
+landscapeFile    = ashley1.LCP
+fuelmodelFile    = ashley.FMD
+weatherFile0     = Aug10-13.wtr
+windFile0        = ashley.wnd
+timestep             = 10m
+visibleStep          = 1h
+secondaryVisibleStep = 48h
+perimeterResolution  = 30m
+distanceResolution   = 30m
+
+enableCrownfire               = false
+linkCrownDensityAndCover      = false
+embersFromTorchingTrees       = false
+enableSpotFireGrowth          = false
+nwnsBackingROS                = false
+fireacceleration              = false
+accelerationtranstion         = 1m
+distanceChecking              = fireLevel
+simulatePostFrontalCombustion = false
+fuelInputOption               = absent
+calculationPrecision          = normal
+useConditioningPeriod         = false
+
+ignitionFile     = ashley_initial_perimeter_2.shp
+ignitionFileType = polygon
+
+StartMonth = 4
+StartDay   = 25
+StartHour  = 2300
+StartMin   = 7
+EndMonth   = 4
+EndDay     = 26
+EndHour    = 2100
+EndMin     = 06
+
+RastMake 	   = true
+RasterFileName = OUTPUT_2/raster
+VectMake 	   = true
+VectorFileName = OUTPUT_2/vector.VCT
+ShapeMake      = true
+shapefile      = OUTPUT_2/shape.shp
+
+RAST_ARRIVALTIME       = true
+RAST_FIREINTENSITY     = true
+RAST_SPREADRATE        = true
+RAST_FLAMELENGTH       = false
+RAST_HEATPERAREA       = false
+RAST_CROWNFIRE         = false
+RAST_FIREDIRECTION     = true
+RAST_REACTIONINTENSITY = false
+

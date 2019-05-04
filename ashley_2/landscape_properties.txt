@@ -1,0 +1,166 @@
+Driver
+GDAL provider
+LCP
+FARSITE v.4 Landscape File (.lcp)
+Dataset Description
+/home/edigley/doutorado_uab/so_oh_leite/two_stage_prediction_framework/ashley/ashley1.LCP
+DESCRIPTION=tutorial exapmle 
+LATITUDE=47
+LINEAR_UNIT=Meters
+Band 1
+ELEVATION_FILE=ash_elev.asc
+ELEVATION_MAX=2097
+ELEVATION_MIN=710
+ELEVATION_NUM_CLASSES=-1
+ELEVATION_UNIT=0
+ELEVATION_UNIT_NAME=Meters
+STATISTICS_MAXIMUM=2097
+STATISTICS_MEAN=-4119,2339487462
+STATISTICS_MINIMUM=-9999
+STATISTICS_STDDEV=5504,3123168291
+Band 2
+SLOPE_FILE=ash_slope.asc
+SLOPE_MAX=54
+SLOPE_MIN=0
+SLOPE_NUM_CLASSES=56
+SLOPE_UNIT=0
+SLOPE_UNIT_NAME=Degrees
+STATISTICS_MAXIMUM=54
+STATISTICS_MEAN=-4657,7048281699
+STATISTICS_MINIMUM=-9999
+STATISTICS_STDDEV=4995,2534915959
+Band 3
+ASPECT_FILE=ash_aspect.asc
+ASPECT_MAX=359
+ASPECT_MIN=0
+ASPECT_NUM_CLASSES=-1
+ASPECT_UNIT=2
+ASPECT_UNIT_NAME=Azimuth degrees
+STATISTICS_MAXIMUM=359
+STATISTICS_MEAN=-5017,3746506318
+STATISTICS_MINIMUM=-9999
+STATISTICS_STDDEV=5101,6804303411
+Band 4
+FUEL_MODEL_FILE=ash_fuel.asc
+FUEL_MODEL_MAX=99
+FUEL_MODEL_MIN=0
+FUEL_MODEL_NUM_CLASSES=9
+FUEL_MODEL_OPTION=1
+FUEL_MODEL_OPTION_DESC=custom models BUT no conversion file needed
+FUEL_MODEL_VALUES=0,0,1,2,5,8,9,10,19,99
+Band 5
+CANOPY_COV_FILE=ash_canopy.asc
+CANOPY_COV_MAX=85
+CANOPY_COV_MIN=0
+CANOPY_COV_NUM_CLASSES=17
+CANOPY_COV_UNIT=1
+CANOPY_COV_UNIT_NAME=Percent
+Band 6
+CANOPY_HT_FILE=ash_height.asc
+CANOPY_HT_MAX=990
+CANOPY_HT_MIN=0
+CANOPY_HT_NUM_CLASSES=41
+CANOPY_HT_UNIT=2
+CANOPY_HT_UNIT_NAME=Feet
+Band 7
+CBH_FILE=ash_cbh.asc
+CBH_MAX=990
+CBH_MIN=0
+CBH_NUM_CLASSES=41
+CBH_UNIT=2
+CBH_UNIT_NAME=Feet
+Band 8
+CBD_FILE=ash_cbd.asc
+CBD_MAX=45
+CBD_MIN=0
+CBD_NUM_CLASSES=30
+CBD_UNIT=1
+CBD_UNIT_NAME=kg/m^3
+Band 9
+DUFF_FILE=ash_duff.asc
+DUFF_MAX=200
+DUFF_MIN=0
+DUFF_NUM_CLASSES=13
+DUFF_UNIT=2
+DUFF_UNIT_NAME=t/ac
+Band 10
+CWD_FILE=ash_cwd.asc
+CWD_MAX=19
+CWD_MIN=0
+CWD_NUM_CLASSES=8
+CWD_OPTION=1
+Dimensions
+X: 382 Y: 266 Bands: 10
+Origin
+157819,392659
+Pixel Size
+30,-30
+No Data Value
+*NoDataValue not set* 
+Data Type
+Int16 - Sixteen bit signed integer 
+Pyramid overviews
+Layer Spatial Reference System
++proj=longlat +datum=WGS84 +no_defs
+Layer Extent (layer original source projection)
+157819.3281250000000000,384678.6250000000000000 : 169279.3281250000000000,392658.6250000000000000
+Band
+Band 01
+Band No
+1
+No Stats
+No stats collected yet
+Band
+Band 02
+Band No
+2
+No Stats
+No stats collected yet
+Band
+Band 03
+Band No
+3
+No Stats
+No stats collected yet
+Band
+Band 04
+Band No
+4
+No Stats
+No stats collected yet
+Band
+Band 05
+Band No
+5
+No Stats
+No stats collected yet
+Band
+Band 06
+Band No
+6
+No Stats
+No stats collected yet
+Band
+Band 07
+Band No
+7
+No Stats
+No stats collected yet
+Band
+Band 08
+Band No
+8
+No Stats
+No stats collected yet
+Band
+Band 09
+Band No
+9
+No Stats
+No stats collected yet
+Band
+Band 10
+Band No
+10
+No Stats
+No stats collected yet 
