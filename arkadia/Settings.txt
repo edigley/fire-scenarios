@@ -1,0 +1,45 @@
+Inputs:
+   Landscape: ARKADIA.LCP
+   Weather: GEN_9_IND_59.WTR
+   Winds: GEN_9_IND_59.WND
+   Adjustments: GEN_9_IND_59.ADJ
+   Fuel Moistures: GEN_9_IND_59.FMS
+   Conversions: NONE
+   Custom Fuel Models: CUSTOMFUEL.FMD
+   Coarse Woody Fuels: NONE
+   Burning Period: NONE
+   Project File: 
+   Bookmark File: 
+Outputs:
+   Shapefile: output/shape_9_59.shp
+   Raster file: Raster File: output/raster_9_59.toa
+   Display Units: METRIC
+   Output File Units: METRIC
+Model:
+   Parameters: TimeStep 30.0
+   Parameters: Visibles 30.0, 60.0
+   Parameters: Perim Res 100.0
+   Parameters: Dist Res 30.0
+   Options: Crown Fire: DISABLED
+   Options: Spotting: DISABLED
+   Options: Spot Growth: DISABLED
+   Options: Ignition Delay: 0 mins
+   Options: Fire Level Dist. Check
+   Acceleration: OFF
+   Acceleration: DEFAULTS
+   Post Frontal: OFF
+   Dead Fuel Moisture: PRE-CALCULATED
+Simulate:
+   Duration: Conditioning (Mo/Day): 8/26
+   Duration: Starting (Mo/Day Hour:Min): 8/26 9:0
+   Duration: Ending (Mo/Day Hour:Min): 8/26 11:0
+   Options: Duration Reset: FALSE
+   Options: Restore Ignitions: FALSE
+   Options: Rotation Sensitive Ignitions: FALSE
+   Options: Show Fires as Grown: TRUE
+   Options: Ignition Spread Rates: TRUE
+   Options: Preserve Inactive Enclaves: TRUE
+   Options: Simulation Threads: 01
+Attack:
+View:
+   Viewport: MAXIMIZED

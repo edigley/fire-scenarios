@@ -1,0 +1,144 @@
+Generation = 10 / Evaluation Duration = 28
+
+Going to perform the last evaluation...
+Evaluation.Start  -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 11 / 10 / 10 / 25 / 10 <---------
+Going to wait for all the 15 threads in order to finish...
+ 154 -   1 ==> [ 10 156 ]  14  13   8  27  77  113  203  32  82  0.1  1.055929    1830      4      7 ../fire-scenarios/jonquera/output/shape_9_153.shp -> [pool-1-thread-4] - CACHED
+ 155 -   2 ==> [ 10 154 ]  14  12  14  27  94  134  203  32  99  1.8  1.058633    1830      4     10 ../fire-scenarios/jonquera/output/shape_10_154.shp -> [pool-1-thread-2]
+ 156 -   3 ==> [ 10 158 ]  14  14   8  27  76  133  203  50  82  1.6  1.053575    1830      4     11 ../fire-scenarios/jonquera/output/shape_10_158.shp -> [pool-1-thread-4]
+ 157 -   4 ==> [ 10 157 ]  14  14   9  27  76  133  203  50  82  1.6  1.053575    1830      4     12 ../fire-scenarios/jonquera/output/shape_10_157.shp -> [pool-1-thread-3]
+ 158 -   5 ==> [ 10 155 ]  14   2   9  27  86  113  315  32  82  0.1  18.915220     120      4     15 ../fire-scenarios/jonquera/output/shape_10_155.shp -> [pool-1-thread-1]
+ 159 -   6 ==> [ 10 159 ]  14  12   9  27  77  113  203  32  37  0.1  1.058590    1830      4     10 ../fire-scenarios/jonquera/output/shape_10_159.shp -> [pool-1-thread-2]
+ 160 -   7 ==> [ 10 160 ]  14  12  14  27  76  113  315  32  82  0.1  14.285421     180      4     15 ../fire-scenarios/jonquera/output/shape_10_160.shp -> [pool-1-thread-4]
+ 161 -   8 ==> [ 10 161 ]  14  14   9  42  78  133   88  32  88  0.1  3.784649     540      4     16 ../fire-scenarios/jonquera/output/shape_10_161.shp -> [pool-1-thread-3]
+ 162 -   9 ==> [ 10 162 ]  14  11   9  51  76  113  203  32  82  0.1  1.061740    1830      4     12 ../fire-scenarios/jonquera/output/shape_10_162.shp -> [pool-1-thread-1]
+ 163 -  10 ==> [ 10 163 ]   7  12   9  27  77  113  203  49  82  1.6  1.060914    1830      4     11 ../fire-scenarios/jonquera/output/shape_10_163.shp -> [pool-1-thread-2]
+ 164 -  11 ==> [ 10 165 ]  14  13   9  27  71  133  203  34  37  1.6  1.055929    1830      4     10 ../fire-scenarios/jonquera/output/shape_10_165.shp -> [pool-1-thread-3]
+ 165 -  12 ==> [ 10 166 ]  14  13   8  27  77   65  203  32  82  0.1  1.056237    1830      4     12 ../fire-scenarios/jonquera/output/shape_10_166.shp -> [pool-1-thread-1]
+ 166 -  13 ==> [ 10 164 ]   6  12   9  27  77  113   31  32  82  0.1  10.383285     210      4     15 ../fire-scenarios/jonquera/output/shape_10_164.shp -> [pool-1-thread-4]
+ 167 -  14 ==> [ 10 167 ]  14   5   9  27  89  133  203  32  82  0.1  1.096796    1830      4     12 ../fire-scenarios/jonquera/output/shape_10_167.shp -> [pool-1-thread-2]
+All threads have been finished successfully.
+Going to consolidate all fitness results
+Evaluation.Finish -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 11 / 10 / 10 / 25 / 25 <---------
+
+Last evaluation has been performed.
+Exception in thread "main" java.lang.NullPointerException
+	at java.base/java.util.TreeMap.put(TreeMap.java:561)
+	at java.base/java.util.TreeSet.add(TreeSet.java:255)
+	at com.edigley.tsp.stages.calibration.GeneticAlgorithm.lambda$run$1(GeneticAlgorithm.java:147)
+	at io.jenetics.internal.collection.ArraySeq.forEach(ArraySeq.java:107)
+	at com.edigley.tsp.stages.calibration.GeneticAlgorithm.lambda$run$2(GeneticAlgorithm.java:147)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at com.edigley.tsp.stages.calibration.GeneticAlgorithm.run(GeneticAlgorithm.java:147)
+	at com.edigley.tsp.stages.calibration.Calibrator.execute(Calibrator.java:103)
+	at com.edigley.tsp.stages.Stage.run(Stage.java:44)
+	at com.edigley.tsp.ui.CLI.runStage(CLI.java:77)
+	at com.edigley.tsp.ui.CLI.runCalibrationStage(CLI.java:95)
+	at com.edigley.tsp.ui.CLI.main(CLI.java:218)
+ 168 -  15 ==> [ 10 168 ]  14   2   9  27  76  113  203  31  40  1.6  1.156733    1830      4     12 ../fire-scenarios/jonquera/output/shape_10_168.shp -> [pool-1-thread-3]
+
+
+
+
+Generation = 10 / Evaluation Duration = 44
+
+Going to perform the last evaluation...
+Evaluation.Start  -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 11 / 10 / 10 / 25 / 10 <---------
+Going to wait for all the 15 threads in order to finish...
+ 156 -   1 ==> [ 10 158 ]   9  12   4  36  88   26  359  31  42  1.2  0.022140     120      4     15 ../fire-scenarios/jonquera/output/shape_10_158.shp -> [pool-1-thread-2]
+ 157 -   2 ==> [ 10 160 ]  13   5   4  36  93   43  176  31  63  0.5  0.000139     240      4     15 ../fire-scenarios/jonquera/output/shape_8_135.shp -> [pool-1-thread-2] - CACHED
+ 158 -   3 ==> [ 10 159 ]   9  10   4  52  88   43  359  44  42  1.2  0.017971     120      4     15 ../fire-scenarios/jonquera/output/shape_10_159.shp -> [pool-1-thread-3]
+ 159 -   4 ==> [ 10 157 ]   9  10   8  60  90   43  176  34  42  1.2  0.000189     330      4     15 ../fire-scenarios/jonquera/output/shape_10_157.shp -> [pool-1-thread-4]
+ 160 -   5 ==> [ 10 156 ]   2  10  10  36  88   50  121  34  42  0.4  0.000736     660      4     16 ../fire-scenarios/jonquera/output/shape_10_156.shp -> [pool-1-thread-1]
+ 161 -   6 ==> [ 10 162 ]   9   8   3  65  98   43  359  42  63  0.5  0.020871     120      4     15 ../fire-scenarios/jonquera/output/shape_10_162.shp -> [pool-1-thread-3]
+ 162 -   7 ==> [ 10 161 ]  11   8   4  44  93    9  359  31  85  0.5  0.052168     480      4     15 ../fire-scenarios/jonquera/output/shape_10_161.shp -> [pool-1-thread-2]
+ 163 -   8 ==> [ 10 166 ]  13   5   4  69  93   43  176  31  63  0.5  0.000158     270      4     15 ../fire-scenarios/jonquera/output/shape_2_52.shp -> [pool-1-thread-2] - CACHED
+ 164 -   9 ==> [ 10 164 ]   9   5   3  69  88   43  359  38  32  0.5  0.022486     120      4     15 ../fire-scenarios/jonquera/output/shape_10_164.shp -> [pool-1-thread-1]
+ 165 -  10 ==> [ 10 163 ]  13   5   4  69  93    9  121  34  63  0.4  0.006343     780      4     16 ../fire-scenarios/jonquera/output/shape_10_163.shp -> [pool-1-thread-4]
+All threads have been finished successfully.
+Going to consolidate all fitness results
+Evaluation.Finish -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 11 / 10 / 10 / 25 / 25 <---------
+
+Last evaluation has been performed.
+Exception in thread "main" java.lang.NullPointerException
+	at java.base/java.util.TreeMap.put(TreeMap.java:561)
+	at java.base/java.util.TreeSet.add(TreeSet.java:255)
+	at com.edigley.tsp.stages.calibration.GeneticAlgorithm.lambda$run$1(GeneticAlgorithm.java:147)
+	at io.jenetics.internal.collection.ArraySeq.forEach(ArraySeq.java:107)
+	at com.edigley.tsp.stages.calibration.GeneticAlgorithm.lambda$run$2(GeneticAlgorithm.java:147)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at com.edigley.tsp.stages.calibration.GeneticAlgorithm.run(GeneticAlgorithm.java:147)
+	at com.edigley.tsp.stages.calibration.Calibrator.execute(Calibrator.java:103)
+	at com.edigley.tsp.stages.Stage.run(Stage.java:44)
+	at com.edigley.tsp.ui.CLI.runStage(CLI.java:77)
+	at com.edigley.tsp.ui.CLI.runCalibrationStage(CLI.java:95)
+	at com.edigley.tsp.ui.CLI.main(CLI.java:218)
+ 166 -  11 ==> [ 10 167 ]  12   5   4  69  93   43  176  31  63  0.5  0.000138     240      4     15 ../fire-scenarios/jonquera/output/shape_10_167.shp -> [pool-1-thread-2]
+ 167 -  12 ==> [ 10 165 ]  13  10   4  69  93   43  176  31  63  1.5  0.000205     360      4     15 ../fire-scenarios/jonquera/output/shape_10_165.shp -> [pool-1-thread-3]
+ 168 -  13 ==> [ 10 168 ]   9   5   4  36  88   18  359  31  78  1.2  0.024869     150      4     15 ../fire-scenarios/jonquera/output/shape_10_168.shp -> [pool-1-thread-1]
+ 169 -  14 ==> [ 10 169 ]  12   5   4  20  93   43  172  31  72  0.5  0.000140     240      4     15 ../fire-scenarios/jonquera/output/shape_10_169.shp -> [pool-1-thread-4]
+ 170 -  15 ==> [ 10 170 ]   3   5   4  45  93   40   96  34  63  0.4  0.000649     270      4     15 ../fire-scenarios/jonquera/output/shape_10_170.shp -> [pool-1-thread-2]
+
+
+
+
+421 -  29 ==> [ 10 424 ]  14  15  12  46  72  135  154  41  53  0.5  1.031832    1830      4      9 ../fire-scenarios/jonquera/output/shape_9_377.shp -> [pool-1-thread-4] - CACHED
+ 422 -  30 ==> [ 10 425 ]  14  15  12  46  72  135  154  42  53  0.5  1.031832    1830      4      9 ../fire-scenarios/jonquera/output/shape_5_236.shp -> [pool-1-thread-4] - CACHED
+ 423 -  31 ==> [ 10 426 ]  14  15  12  46  72  135  154  42  53  0.5  1.031832    1830      4      9 ../fire-scenarios/jonquera/output/shape_5_236.shp -> [pool-1-thread-4] - CACHED
+ 424 -  32 ==> [ 10 427 ]  14  15  12  59  72  135  154  41  53  0.5  1.031832    1830      4      9 ../fire-scenarios/jonquera/output/shape_8_340.shp -> [pool-1-thread-4] - CACHED
+ 425 -  33 ==> [ 10 428 ]  14  15  13  59  88  135  154  42  53  0.5  1.031832    1830      4      8 ../fire-scenarios/jonquera/output/shape_10_428.shp -> [pool-1-thread-4]
+ 426 -  34 ==> [ 10 423 ]  14   3   8  25  72   14  154  41  53  0.5  1.837864    1530      4     47 ../fire-scenarios/jonquera/output/shape_10_423.shp -> [pool-1-thread-1]
+ 427 -  35 ==> [ 10 410 ]  13  15  12  49  86  135    8  42  69  0.5  1.665600    1020      4     79 ../fire-scenarios/jonquera/output/shape_10_410.shp -> [pool-1-thread-3]
+All threads have been finished successfully.
+Going to consolidate all fitness results
+Evaluation.Finish -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 11 / 10 / 10 / 64 / 64 <---------
+
+Last evaluation has been performed.
+Exception in thread "main" java.lang.NullPointerException
+	at java.base/java.util.TreeMap.put(TreeMap.java:561)
+	at java.base/java.util.TreeSet.add(TreeSet.java:255)
+	at com.edigley.tsp.stages.calibration.GeneticAlgorithm.lambda$run$1(GeneticAlgorithm.java:147)
+	at io.jenetics.internal.collection.ArraySeq.forEach(ArraySeq.java:107)
+	at com.edigley.tsp.stages.calibration.GeneticAlgorithm.lambda$run$2(GeneticAlgorithm.java:147)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at com.edigley.tsp.stages.calibration.GeneticAlgorithm.run(GeneticAlgorithm.java:147)
+	at com.edigley.tsp.stages.calibration.Calibrator.execute(Calibrator.java:103)
+	at com.edigley.tsp.stages.Stage.run(Stage.java:44)
+	at com.edigley.tsp.ui.CLI.runStage(CLI.java:77)
+	at com.edigley.tsp.ui.CLI.runCalibrationStage(CLI.java:95)
+	at com.edigley.tsp.ui.CLI.main(CLI.java:218)
+ 428 -  36 ==> [  9 387 ]  14  15  13  59  88  135   78  42  69  0.3  1.670575    1260      4    246 ../fire-scenarios/jonquera/output/shape_9_387.shp -> [pool-1-thread-2]
+Mar 29, 2022 10:13:48 PM org.geotools.referencing.factory.DeferredAuthorityFactory disposeBackingStore
+INFO: Disposing class org.geotools.referencing.factory.epsg.ThreadedHsqlEpsgFactory backing store
+Mar 29, 2022 10:13:48 PM org.hsqldb.persist.Logger logInfoEvent
+INFO: Database closed
+
+
+
+
+    	streamCollectedIndividuals.forEach(r -> {
+			r.getGenotypes()
+			 .forEach(
+					gt -> {
+						try {
+    						allIndividuals.add(
+    								cache.get(new FarsiteIndividual(gt))
+    						);
+						} catch (NullPointerException e) {
+				        	System.err.println("Failed! " + e.getMessage());
+				        	logger.error(e.getMessage(), e);
+				        }
+					}
+			);
+    	});
+
+ROOT_DIR="cloudcom2022/executions/jonquera"
+SCENARIO_DIR=${ROOT_DIR}"/2022-03-30_072616_strategy_agof_seed_28958"
+DIR=input  && mv fire-scenarios/jonquera/${DIR}/gen_*.* ${SCENARIO_DIR}/${DIR}
+DIR=output && mv fire-scenarios/jonquera/${DIR}/*       ${SCENARIO_DIR}/${DIR}
+mv two-stage-prediction/tsp.log ${SCENARIO_DIR}/${DIR}
+mv two-stage-prediction/two-stage-prediction.log ${SCENARIO_DIR}/${DIR}
+mv two-stage-prediction/*.png ${SCENARIO_DIR}/${DIR}
+mv ${ROOT_DIR}/jonquera_farsite_execution_memoization_agof.txt ${SCENARIO_DIR}/${DIR}
+
+

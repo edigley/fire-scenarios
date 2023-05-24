@@ -1,9 +1,9 @@
 Inputs:
    Landscape: JONQUERA.LCP
-   Weather: GEN_1_IND_2.WTR
-   Winds: GEN_1_IND_2.WND
-   Adjustments: GEN_1_IND_2.ADJ
-   Fuel Moistures: GEN_1_IND_2.FMS
+   Weather: GEN_10_IND_411.WTR
+   Winds: GEN_10_IND_411.WND
+   Adjustments: GEN_10_IND_411.ADJ
+   Fuel Moistures: GEN_10_IND_411.FMS
    Conversions: NONE
    Custom Fuel Models: CUSTOMFUEL.FMD
    Coarse Woody Fuels: NONE
@@ -11,7 +11,8 @@ Inputs:
    Project File: 
    Bookmark File: 
 Outputs:
-   Raster file: Raster File: output/raster_0_2.toa
+   Shapefile: output/shape_10_411.shp
+   Raster file: Raster File: output/raster_10_411.toa
    Display Units: METRIC
    Output File Units: METRIC
 Model:
@@ -31,7 +32,7 @@ Model:
 Simulate:
    Duration: Conditioning (Mo/Day): 7/22
    Duration: Starting (Mo/Day Hour:Min): 7/22 12:0
-   Duration: Ending (Mo/Day Hour:Min): 7/22 20:30
+   Duration: Ending (Mo/Day Hour:Min): 7/23 18:30
    Options: Duration Reset: FALSE
    Options: Restore Ignitions: FALSE
    Options: Rotation Sensitive Ignitions: FALSE

@@ -1,0 +1,225 @@
+root@cariri:/home/edigley# pwd
+/home/edigley
+root@cariri:/home/edigley# cd /home/edigley/git-phd-workspace/two-stage-prediction && sh -x run_scenario_cloudcom_2022.sh  arkadia  nsd $RANDOM
++ SCENARIO=arkadia
++ STRATEGY=nsd
++ SEED=24524
++ date +%Y-%m-%d_%H%M%S
++ CURRENT_DATE_TIME=2022-03-30_122911
++ WORKSPACE_DIR=/home/edigley/git-phd-workspace
++ TSP_DIR=/home/edigley/git-phd-workspace/two-stage-prediction
++ TSP_LOG_FILE=/home/edigley/git-phd-workspace/two-stage-prediction/tsp.log
++ SCENARIO_DIR=/home/edigley/git-phd-workspace/fire-scenarios/arkadia
++ RESULTS_DIR=/home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524
++ ALL_GENERATIONS_FILE=/home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/all_generations.txt
++ OUTPUT_SUMMARY_FILE=/home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/two-stage-prediction.log
++ MEMOIZATION_FILE=/home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/arkadia_farsite_execution_memoization_nsd.txt
++ DIR=/home/edigley/git-phd-workspace/fire-scenarios/arkadia
++ pkill -kill farsite4P
++ rm /home/edigley/git-phd-workspace/fire-scenarios/arkadia/input/gen*.*
+rm: não foi possível remover “/home/edigley/git-phd-workspace/fire-scenarios/arkadia/input/gen*.*”: Arquivo ou diretório não encontrado
++ rm /home/edigley/git-phd-workspace/fire-scenarios/arkadia/output/raster_*.LGR
+rm: não foi possível remover “/home/edigley/git-phd-workspace/fire-scenarios/arkadia/output/raster_*.LGR”: Arquivo ou diretório não encontrado
++ rm /home/edigley/git-phd-workspace/fire-scenarios/arkadia/output/shape_*.*
+rm: não foi possível remover “/home/edigley/git-phd-workspace/fire-scenarios/arkadia/output/shape_*.*”: Arquivo ou diretório não encontrado
++ rm /home/edigley/git-phd-workspace/fire-scenarios/arkadia/output/settings_*.txt
+rm: não foi possível remover “/home/edigley/git-phd-workspace/fire-scenarios/arkadia/output/settings_*.txt”: Arquivo ou diretório não encontrado
++ mkdir -p /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524
++ mkdir /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/input
++ mkdir /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/output
++ cd /home/edigley/git-phd-workspace/two-stage-prediction
++ java -jar target/two-stage-prediction-0.0.1-SNAPSHOT.jar -f target/nar/two-stage-prediction-0.0.1-SNAPSHOT-amd64-Linux-gcc-executable/bin/amd64-Linux-gcc/two-stage-prediction -c /home/edigley/git-phd-workspace/fire-scenarios/arkadia -m+  /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/arkadia_farsite_execution_memoization_nsd.txt -calibrate -e nsd -s 24524
+tee /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/two-stage-prediction.log
+Exception in thread "main" java.lang.UnsupportedClassVersionError: com/edigley/tsp/ui/CLI : Unsupported major.minor version 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:803)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:442)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:64)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:354)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:348)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:347)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:312)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:482)
++ echo generation individual t1 t10 t100 t1000 t10000 ws wd th hh adj fireError maxSimulatedTime parallelizationLevel executionTime predictionFile
++ + egrep+  Individual finished:sort -ntr -s  
+ /home/edigley/git-phd-workspace/two-stage-prediction/tsp.log -k9,9 -k10,10
+
++ sed -e s/\]//g -e s/\[//g
++ cut -d   -f8-26
++ time R --slave --no-save --no-restore --no-environ --silent --args /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/all_generations.txt nsd
+Error in library(tidyr) : there is no package called ‘tidyr’
+Execução interrompida
+Command exited with non-zero status 1
+0.14user 0.00system 0:01.21elapsed 12%CPU (0avgtext+0avgdata 34192maxresident)k
+16968inputs+0outputs (36major+8133minor)pagefaults 0swaps
++ sed -i s|/home/edigley/git-phd-workspace/fire-scenarios/arkadia/output/|      /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/output/|g /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/all_generations.txt
++ sed -i s|/home/edigley/git-phd-workspace/fire-scenarios/arkadia/output/|      /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/output/|g /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/arkadia_farsite_execution_memoization_nsd.txt
+sed: não foi possível ler /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/arkadia_farsite_execution_memoization_nsd.txt: Arquivo ou diretório não encontrado
++ sed -i s|/home/edigley/git-phd-workspace/fire-scenarios/arkadia/output/|      /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/output/|g /home/edigley/git-phd-workspace/two-stage-prediction/tsp.log
++ mv /home/edigley/git-phd-workspace/two-stage-prediction/tsp.log /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524
++ mv /home/edigley/git-phd-workspace/fire-scenarios/arkadia/input/gen*.* /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/input/
+mv: impossível obter estado de “/home/edigley/git-phd-workspace/fire-scenarios/arkadia/input/gen*.*”: Arquivo ou diretório não encontrado
++ mv /home/edigley/git-phd-workspace/fire-scenarios/arkadia/output/* /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/output/
+mv: impossível obter estado de “/home/edigley/git-phd-workspace/fire-scenarios/arkadia/output/*”: Arquivo ou diretório não encontrado
++ IMAGES_DIR=/home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/images
++ mkdir -p /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/images
++ mv /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/output/*.jpg /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/images
+mv: impossível obter estado de “/home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/output/*.jpg”: Arquivo ou diretório não encontrado
++ cd /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/images
++ rename s/\d+/sprintf("%02d",$&)/e *.jpg
++ rename s/\d+.jpg/sprintf("%03d.jpg",$&)/e *.jpg
++ seq 1 10
++ printf convert -delay 10 -loop 0 shape_%02d_*.jpg generation_%02d.gif\n 1 1
++ convert -delay 10 -loop 0 shape_01_*.jpg generation_01.gif
+convert.im6: unable to open image `shape_01_*.jpg': Arquivo ou diretório não encontrado @ error/blob.c/OpenBlob/2638.
+convert.im6: no images defined `generation_01.gif' @ error/convert.c/ConvertImageCommand/3044.
++ printf convert -delay 10 -loop 0 shape_%02d_*.jpg generation_%02d.gif\n 2 2
++ convert -delay 10 -loop 0 shape_02_*.jpg generation_02.gif
+convert.im6: unable to open image `shape_02_*.jpg': Arquivo ou diretório não encontrado @ error/blob.c/OpenBlob/2638.
+convert.im6: no images defined `generation_02.gif' @ error/convert.c/ConvertImageCommand/3044.
++ printf convert -delay 10 -loop 0 shape_%02d_*.jpg generation_%02d.gif\n 3 3
++ convert -delay 10 -loop 0 shape_03_*.jpg generation_03.gif
+convert.im6: unable to open image `shape_03_*.jpg': Arquivo ou diretório não encontrado @ error/blob.c/OpenBlob/2638.
+convert.im6: no images defined `generation_03.gif' @ error/convert.c/ConvertImageCommand/3044.
++ printf convert -delay 10 -loop 0 shape_%02d_*.jpg generation_%02d.gif\n 4 4
++ convert -delay 10 -loop 0 shape_04_*.jpg generation_04.gif
+convert.im6: unable to open image `shape_04_*.jpg': Arquivo ou diretório não encontrado @ error/blob.c/OpenBlob/2638.
+convert.im6: no images defined `generation_04.gif' @ error/convert.c/ConvertImageCommand/3044.
++ printf convert -delay 10 -loop 0 shape_%02d_*.jpg generation_%02d.gif\n 5 5
++ convert -delay 10 -loop 0 shape_05_*.jpg generation_05.gif
+convert.im6: unable to open image `shape_05_*.jpg': Arquivo ou diretório não encontrado @ error/blob.c/OpenBlob/2638.
+convert.im6: no images defined `generation_05.gif' @ error/convert.c/ConvertImageCommand/3044.
++ printf convert -delay 10 -loop 0 shape_%02d_*.jpg generation_%02d.gif\n 6 6
++ convert -delay 10 -loop 0 shape_06_*.jpg generation_06.gif
+convert.im6: unable to open image `shape_06_*.jpg': Arquivo ou diretório não encontrado @ error/blob.c/OpenBlob/2638.
+convert.im6: no images defined `generation_06.gif' @ error/convert.c/ConvertImageCommand/3044.
++ printf convert -delay 10 -loop 0 shape_%02d_*.jpg generation_%02d.gif\n 7 7
++ convert -delay 10 -loop 0 shape_07_*.jpg generation_07.gif
+convert.im6: unable to open image `shape_07_*.jpg': Arquivo ou diretório não encontrado @ error/blob.c/OpenBlob/2638.
+convert.im6: no images defined `generation_07.gif' @ error/convert.c/ConvertImageCommand/3044.
++ printf convert -delay 10 -loop 0 shape_%02d_*.jpg generation_%02d.gif\n 8 8
++ convert -delay 10 -loop 0 shape_08_*.jpg generation_08.gif
+convert.im6: unable to open image `shape_08_*.jpg': Arquivo ou diretório não encontrado @ error/blob.c/OpenBlob/2638.
+convert.im6: no images defined `generation_08.gif' @ error/convert.c/ConvertImageCommand/3044.
++ printf convert -delay 10 -loop 0 shape_%02d_*.jpg generation_%02d.gif\n 9 9
++ convert -delay 10 -loop 0 shape_09_*.jpg generation_09.gif
+convert.im6: unable to open image `shape_09_*.jpg': Arquivo ou diretório não encontrado @ error/blob.c/OpenBlob/2638.
+convert.im6: no images defined `generation_09.gif' @ error/convert.c/ConvertImageCommand/3044.
++ printf convert -delay 10 -loop 0 shape_%02d_*.jpg generation_%02d.gif\n 10 10
++ convert -delay 10 -loop 0 shape_10_*.jpg generation_10.gif
+convert.im6: unable to open image `shape_10_*.jpg': Arquivo ou diretório não encontrado @ error/blob.c/OpenBlob/2638.
+convert.im6: no images defined `generation_10.gif' @ error/convert.c/ConvertImageCommand/3044.
++ GENERATIONS_DIR=/home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/images/generations
++ mkdir -p /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/images/generations
++ mv generation_??.gif /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/images/generations
+mv: impossível obter estado de “generation_??.gif”: Arquivo ou diretório não encontrado
++ cp /home/edigley/git-phd-workspace/two-stage-prediction/src/main/resources/index.html /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/images/generations
++ cp /home/edigley/git-phd-workspace/two-stage-prediction/src/main/resources/style.css /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/images/generations
++ mv /home/edigley/git-phd-workspace/two-stage-prediction/nsd*_generation*.png /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524
+mv: impossível obter estado de “/home/edigley/git-phd-workspace/two-stage-prediction/nsd*_generation*.png”: Arquivo ou diretório não encontrado
++ mv /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/arkadia_farsite_execution_memoization_nsd.txt /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524
+mv: impossível obter estado de “/home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/arkadia_farsite_execution_memoization_nsd.txt”: Arquivo ou diretório não encontrado
++ cp /home/edigley/git-phd-workspace/fire-scenarios/arkadia/scenario.ini /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524
++ echo nautilus /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/images/generations
+nautilus /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/images/generations
++ exit 0
+root@cariri:/home/edigley/git-phd-workspace/two-stage-prediction# java -jar target/two-stage-prediction-0.0.1-SNAPSHOT.jar -f target/nar/two-stage-prediction-0.0.1-SNAPSHOT-amd64-Linux-gcc-executable/bin/amd64-Linux-gcc/two-stage-prediction -c /home/edigley/git-phd-workspace/fire-scenarios/arkadia -m  /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/arkadia_farsite_execution_memoization_nsd.txt -calibrate -e nsd -s 24524
+Exception in thread "main" java.lang.UnsupportedClassVersionError: com/edigley/tsp/ui/CLI : Unsupported major.minor version 52.0
+	at java.lang.ClassLoader.defineClass1(Native Method)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:803)
+	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+	at java.net.URLClassLoader.defineClass(URLClassLoader.java:442)
+	at java.net.URLClassLoader.access$100(URLClassLoader.java:64)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:354)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:348)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:347)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:312)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+	at sun.launcher.LauncherHelper.checkAndLoadMain(LauncherHelper.java:482)
+root@cariri:/home/edigley/git-phd-workspace/two-stage-prediction# ls
+arkadia.txt         how_to_run.sh                          lineplot_generation_error_evolution.R~  prepare_generation_images.sh~  run_jonquera.sh                               run_scenario_cloudcom_2022_how_to_post_process_tsp_log_sed_extract_line_range.txt   run_scenario_cloudcom_2022.sh~  src     watch.sh
+arkadia.txt~        lib                                    pom.xml                                 README.md                      run_random_arkadia_scenario_cloudcom_2022.sh  run_scenario_cloudcom_2022_how_to_post_process_tsp_log_sed_extract_line_range.txt~  run.sh                          target
+how_to_run_2020.sh  lineplot_generation_error_evolution.R  prepare_generation_images.sh            run_and_copy_results.sh        run_random_scenario_cloudcom_2022.sh~         run_scenario_cloudcom_2022.sh                                                       run.sh~                         touch
+root@cariri:/home/edigley/git-phd-workspace/two-stage-prediction# mvn clean
+Warning: JAVA_HOME environment variable is not set.
+[INFO] Scanning for projects...
+Downloading: http://repo.maven.apache.org/maven2/com/github/maven-nar/nar-maven-plugin/3.5.1/nar-maven-plugin-3.5.1.pom
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project com.edigley:two-stage-prediction:0.0.1-SNAPSHOT (/home/edigley/phd_uab/git-phd-workspace/two-stage-prediction/pom.xml) has 2 errors
+[ERROR]     Unresolveable build extension: Plugin com.github.maven-nar:nar-maven-plugin:3.5.1 or one of its dependencies could not be resolved: Failed to collect dependencies for com.github.maven-nar:nar-maven-plugin:jar:3.5.1 (): Failed to read artifact descriptor for com.github.maven-nar:nar-maven-plugin:jar:3.5.1: Could not transfer artifact com.github.maven-nar:nar-maven-plugin:pom:3.5.1 from/to central (http://repo.maven.apache.org/maven2): repo.maven.apache.org: Nome ou serviço desconhecido: Unknown host repo.maven.apache.org: Nome ou serviço desconhecido -> [Help 2]
+[ERROR]     Unknown packaging: nar @ line 6, column 14
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
+root@cariri:/home/edigley/git-phd-workspace/two-stage-prediction# java -version
+java version "1.7.0_131"
+OpenJDK Runtime Environment (IcedTea 2.6.9) (7u131-2.6.9-0ubuntu0.14.04.2)
+OpenJDK 64-Bit Server VM (build 24.131-b00, mixed mode)
+root@cariri:/home/edigley/git-phd-workspace/two-stage-prediction# export JAVA_HOME=/opt/java/jdk1.8.0_51
+root@cariri:/home/edigley/git-phd-workspace/two-stage-prediction# export PATH=$JAVA_HOME/bin:$PATH
+root@cariri:/home/edigley/git-phd-workspace/two-stage-prediction# java -version
+java version "1.8.0_51"
+Java(TM) SE Runtime Environment (build 1.8.0_51-b16)
+Java HotSpot(TM) 64-Bit Server VM (build 25.51-b03, mixed mode)
+root@cariri:/home/edigley/git-phd-workspace/two-stage-prediction# java -jar target/two-stage-prediction-0.0.1-SNAPSHOT.jar -f target/nar/two-stage-prediction-0.0.1-SNAPSHOT-amd64-Linux-gcc-executable/bin/amd64-Linux-gcc/two-stage-prediction -c /home/edigley/git-phd-workspace/fire-scenarios/arkadia -m  /home/edigley/git-phd-workspace/cloudcom2022/executions/arkadia/2022-03-30_122911_strategy_nsd_seed_24524/arkadia_farsite_execution_memoization_nsd.txt -calibrate -e nsd -s 24524
+12:34:41,455 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+12:34:41,455 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+12:34:41,455 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/home/edigley/phd_uab/git-phd-workspace/two-stage-prediction/target/two-stage-prediction-0.0.1-SNAPSHOT.jar!/logback.xml]
+12:34:41,464 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@17c68925 - URL [jar:file:/home/edigley/phd_uab/git-phd-workspace/two-stage-prediction/target/two-stage-prediction-0.0.1-SNAPSHOT.jar!/logback.xml] is not of type file
+12:34:41,505 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+12:34:41,505 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+12:34:41,510 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [CONSOLE]
+12:34:41,539 |-WARN in ch.qos.logback.core.ConsoleAppender[CONSOLE] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+12:34:41,539 |-WARN in ch.qos.logback.core.ConsoleAppender[CONSOLE] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+12:34:41,539 |-WARN in ch.qos.logback.core.ConsoleAppender[CONSOLE] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+12:34:41,539 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+12:34:41,541 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+12:34:41,542 |-WARN in ch.qos.logback.core.FileAppender[FILE] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+12:34:41,542 |-WARN in ch.qos.logback.core.FileAppender[FILE] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+12:34:41,542 |-WARN in ch.qos.logback.core.FileAppender[FILE] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+12:34:41,542 |-INFO in ch.qos.logback.core.FileAppender[FILE] - File property is set to [tsp.log]
+12:34:41,544 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.edigley] to DEBUG
+12:34:41,544 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.edigley] to false
+12:34:41,544 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[com.edigley]
+12:34:41,544 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to ERROR
+12:34:41,544 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CONSOLE] to Logger[ROOT]
+12:34:41,544 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+12:34:41,545 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@7e0ea639 - Registering current configuration as safe fallback point
+
+Evaluation.Start  -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 1 / 1 / 1 / 25 / 0 <---------
+Going to wait for all the 25 threads in order to finish...
+^A   1 -   1 ==> [  1   4 ]   8  14   9  57  81    3  344  36  41  0.5  1.356185      90      4      4 /home/edigley/git-phd-workspace/fire-scenarios/arkadia/output/shape_1_4.shp -> [pool-1-thread-4]
+d^C^C^Croot@cariri:/home/edigley/git-phd-workspace/two-stage-prediction# ^C
+root@cariri:/home/edigley/git-phd-workspace/two-stage-prediction# 
+root@cariri:/home/edigley/git-phd-workspace/two-stage-prediction# 
+root@cariri:/home/edigley/git-phd-workspace/two-stage-prediction# 
+root@cariri:/home/edigley/git-phd-workspace/two-stage-prediction# mvn clean
+[INFO] Scanning for projects...
+Downloading: http://repo.maven.apache.org/maven2/com/github/maven-nar/nar-maven-plugin/3.5.1/nar-maven-plugin-3.5.1.pom
+[ERROR] The build could not read 1 project -> [Help 1]
+[ERROR]   
+[ERROR]   The project com.edigley:two-stage-prediction:0.0.1-SNAPSHOT (/home/edigley/phd_uab/git-phd-workspace/two-stage-prediction/pom.xml) has 2 errors
+[ERROR]     Unresolveable build extension: Plugin com.github.maven-nar:nar-maven-plugin:3.5.1 or one of its dependencies could not be resolved: Failed to collect dependencies for com.github.maven-nar:nar-maven-plugin:jar:3.5.1 (): Failed to read artifact descriptor for com.github.maven-nar:nar-maven-plugin:jar:3.5.1: Could not transfer artifact com.github.maven-nar:nar-maven-plugin:pom:3.5.1 from/to central (http://repo.maven.apache.org/maven2): repo.maven.apache.org: unknown error: Unknown host repo.maven.apache.org: unknown error -> [Help 2]
+[ERROR]     Unknown packaging: nar @ line 6, column 14
+[ERROR] 
+[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[ERROR] 
+[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/ProjectBuildingException
+[ERROR] [Help 2] http://cwiki.apache.org/confluence/display/MAVEN/PluginResolutionException
+root@cariri:/home/edigley/git-phd-workspace/two-stage-prediction# exit
+edigley@cariri:~$ cd /home/edigley/git-phd-workspace/two-stage-prediction
+edigley@cariri:~/git-phd-workspace/two-stage-prediction$ 
+

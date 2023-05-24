@@ -1,0 +1,728 @@
+Generation = 10 / Evaluation Duration = 28
+
+Going to perform the last evaluation...
+Evaluation.Start  -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 11 / 10 / 10 / 25 / 10 <---------
+Going to wait for all the 15 threads in order to finish...
+ 154 -   1 ==> [ 10 156 ]  14  13   8  27  77  113  203  32  82  0.1  1.055929    1830      4      7 ../fire-scenarios/jonquera/output/shape_9_153.shp -> [pool-1-thread-4] - CACHED
+ 155 -   2 ==> [ 10 154 ]  14  12  14  27  94  134  203  32  99  1.8  1.058633    1830      4     10 ../fire-scenarios/jonquera/output/shape_10_154.shp -> [pool-1-thread-2]
+ 156 -   3 ==> [ 10 158 ]  14  14   8  27  76  133  203  50  82  1.6  1.053575    1830      4     11 ../fire-scenarios/jonquera/output/shape_10_158.shp -> [pool-1-thread-4]
+ 157 -   4 ==> [ 10 157 ]  14  14   9  27  76  133  203  50  82  1.6  1.053575    1830      4     12 ../fire-scenarios/jonquera/output/shape_10_157.shp -> [pool-1-thread-3]
+ 158 -   5 ==> [ 10 155 ]  14   2   9  27  86  113  315  32  82  0.1  18.915220     120      4     15 ../fire-scenarios/jonquera/output/shape_10_155.shp -> [pool-1-thread-1]
+ 159 -   6 ==> [ 10 159 ]  14  12   9  27  77  113  203  32  37  0.1  1.058590    1830      4     10 ../fire-scenarios/jonquera/output/shape_10_159.shp -> [pool-1-thread-2]
+ 160 -   7 ==> [ 10 160 ]  14  12  14  27  76  113  315  32  82  0.1  14.285421     180      4     15 ../fire-scenarios/jonquera/output/shape_10_160.shp -> [pool-1-thread-4]
+ 161 -   8 ==> [ 10 161 ]  14  14   9  42  78  133   88  32  88  0.1  3.784649     540      4     16 ../fire-scenarios/jonquera/output/shape_10_161.shp -> [pool-1-thread-3]
+ 162 -   9 ==> [ 10 162 ]  14  11   9  51  76  113  203  32  82  0.1  1.061740    1830      4     12 ../fire-scenarios/jonquera/output/shape_10_162.shp -> [pool-1-thread-1]
+ 163 -  10 ==> [ 10 163 ]   7  12   9  27  77  113  203  49  82  1.6  1.060914    1830      4     11 ../fire-scenarios/jonquera/output/shape_10_163.shp -> [pool-1-thread-2]
+ 164 -  11 ==> [ 10 165 ]  14  13   9  27  71  133  203  34  37  1.6  1.055929    1830      4     10 ../fire-scenarios/jonquera/output/shape_10_165.shp -> [pool-1-thread-3]
+ 165 -  12 ==> [ 10 166 ]  14  13   8  27  77   65  203  32  82  0.1  1.056237    1830      4     12 ../fire-scenarios/jonquera/output/shape_10_166.shp -> [pool-1-thread-1]
+ 166 -  13 ==> [ 10 164 ]   6  12   9  27  77  113   31  32  82  0.1  10.383285     210      4     15 ../fire-scenarios/jonquera/output/shape_10_164.shp -> [pool-1-thread-4]
+ 167 -  14 ==> [ 10 167 ]  14   5   9  27  89  133  203  32  82  0.1  1.096796    1830      4     12 ../fire-scenarios/jonquera/output/shape_10_167.shp -> [pool-1-thread-2]
+All threads have been finished successfully.
+Going to consolidate all fitness results
+Evaluation.Finish -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 11 / 10 / 10 / 25 / 25 <---------
+
+Last evaluation has been performed.
+Exception in thread "main" java.lang.NullPointerException
+	at java.base/java.util.TreeMap.put(TreeMap.java:561)
+	at java.base/java.util.TreeSet.add(TreeSet.java:255)
+	at com.edigley.tsp.stages.calibration.GeneticAlgorithm.lambda$run$1(GeneticAlgorithm.java:147)
+	at io.jenetics.internal.collection.ArraySeq.forEach(ArraySeq.java:107)
+	at com.edigley.tsp.stages.calibration.GeneticAlgorithm.lambda$run$2(GeneticAlgorithm.java:147)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at com.edigley.tsp.stages.calibration.GeneticAlgorithm.run(GeneticAlgorithm.java:147)
+	at com.edigley.tsp.stages.calibration.Calibrator.execute(Calibrator.java:103)
+	at com.edigley.tsp.stages.Stage.run(Stage.java:44)
+	at com.edigley.tsp.ui.CLI.runStage(CLI.java:77)
+	at com.edigley.tsp.ui.CLI.runCalibrationStage(CLI.java:95)
+	at com.edigley.tsp.ui.CLI.main(CLI.java:218)
+ 168 -  15 ==> [ 10 168 ]  14   2   9  27  76  113  203  31  40  1.6  1.156733    1830      4     12 ../fire-scenarios/jonquera/output/shape_10_168.shp -> [pool-1-thread-3]
+
+
+
+
+Generation = 10 / Evaluation Duration = 44
+
+Going to perform the last evaluation...
+Evaluation.Start  -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 11 / 10 / 10 / 25 / 10 <---------
+Going to wait for all the 15 threads in order to finish...
+ 156 -   1 ==> [ 10 158 ]   9  12   4  36  88   26  359  31  42  1.2  0.022140     120      4     15 ../fire-scenarios/jonquera/output/shape_10_158.shp -> [pool-1-thread-2]
+ 157 -   2 ==> [ 10 160 ]  13   5   4  36  93   43  176  31  63  0.5  0.000139     240      4     15 ../fire-scenarios/jonquera/output/shape_8_135.shp -> [pool-1-thread-2] - CACHED
+ 158 -   3 ==> [ 10 159 ]   9  10   4  52  88   43  359  44  42  1.2  0.017971     120      4     15 ../fire-scenarios/jonquera/output/shape_10_159.shp -> [pool-1-thread-3]
+ 159 -   4 ==> [ 10 157 ]   9  10   8  60  90   43  176  34  42  1.2  0.000189     330      4     15 ../fire-scenarios/jonquera/output/shape_10_157.shp -> [pool-1-thread-4]
+ 160 -   5 ==> [ 10 156 ]   2  10  10  36  88   50  121  34  42  0.4  0.000736     660      4     16 ../fire-scenarios/jonquera/output/shape_10_156.shp -> [pool-1-thread-1]
+ 161 -   6 ==> [ 10 162 ]   9   8   3  65  98   43  359  42  63  0.5  0.020871     120      4     15 ../fire-scenarios/jonquera/output/shape_10_162.shp -> [pool-1-thread-3]
+ 162 -   7 ==> [ 10 161 ]  11   8   4  44  93    9  359  31  85  0.5  0.052168     480      4     15 ../fire-scenarios/jonquera/output/shape_10_161.shp -> [pool-1-thread-2]
+ 163 -   8 ==> [ 10 166 ]  13   5   4  69  93   43  176  31  63  0.5  0.000158     270      4     15 ../fire-scenarios/jonquera/output/shape_2_52.shp -> [pool-1-thread-2] - CACHED
+ 164 -   9 ==> [ 10 164 ]   9   5   3  69  88   43  359  38  32  0.5  0.022486     120      4     15 ../fire-scenarios/jonquera/output/shape_10_164.shp -> [pool-1-thread-1]
+ 165 -  10 ==> [ 10 163 ]  13   5   4  69  93    9  121  34  63  0.4  0.006343     780      4     16 ../fire-scenarios/jonquera/output/shape_10_163.shp -> [pool-1-thread-4]
+All threads have been finished successfully.
+Going to consolidate all fitness results
+Evaluation.Finish -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 11 / 10 / 10 / 25 / 25 <---------
+
+Last evaluation has been performed.
+Exception in thread "main" java.lang.NullPointerException
+	at java.base/java.util.TreeMap.put(TreeMap.java:561)
+	at java.base/java.util.TreeSet.add(TreeSet.java:255)
+	at com.edigley.tsp.stages.calibration.GeneticAlgorithm.lambda$run$1(GeneticAlgorithm.java:147)
+	at io.jenetics.internal.collection.ArraySeq.forEach(ArraySeq.java:107)
+	at com.edigley.tsp.stages.calibration.GeneticAlgorithm.lambda$run$2(GeneticAlgorithm.java:147)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at com.edigley.tsp.stages.calibration.GeneticAlgorithm.run(GeneticAlgorithm.java:147)
+	at com.edigley.tsp.stages.calibration.Calibrator.execute(Calibrator.java:103)
+	at com.edigley.tsp.stages.Stage.run(Stage.java:44)
+	at com.edigley.tsp.ui.CLI.runStage(CLI.java:77)
+	at com.edigley.tsp.ui.CLI.runCalibrationStage(CLI.java:95)
+	at com.edigley.tsp.ui.CLI.main(CLI.java:218)
+ 166 -  11 ==> [ 10 167 ]  12   5   4  69  93   43  176  31  63  0.5  0.000138     240      4     15 ../fire-scenarios/jonquera/output/shape_10_167.shp -> [pool-1-thread-2]
+ 167 -  12 ==> [ 10 165 ]  13  10   4  69  93   43  176  31  63  1.5  0.000205     360      4     15 ../fire-scenarios/jonquera/output/shape_10_165.shp -> [pool-1-thread-3]
+ 168 -  13 ==> [ 10 168 ]   9   5   4  36  88   18  359  31  78  1.2  0.024869     150      4     15 ../fire-scenarios/jonquera/output/shape_10_168.shp -> [pool-1-thread-1]
+ 169 -  14 ==> [ 10 169 ]  12   5   4  20  93   43  172  31  72  0.5  0.000140     240      4     15 ../fire-scenarios/jonquera/output/shape_10_169.shp -> [pool-1-thread-4]
+ 170 -  15 ==> [ 10 170 ]   3   5   4  45  93   40   96  34  63  0.4  0.000649     270      4     15 ../fire-scenarios/jonquera/output/shape_10_170.shp -> [pool-1-thread-2]
+
+
+
+
+421 -  29 ==> [ 10 424 ]  14  15  12  46  72  135  154  41  53  0.5  1.031832    1830      4      9 ../fire-scenarios/jonquera/output/shape_9_377.shp -> [pool-1-thread-4] - CACHED
+ 422 -  30 ==> [ 10 425 ]  14  15  12  46  72  135  154  42  53  0.5  1.031832    1830      4      9 ../fire-scenarios/jonquera/output/shape_5_236.shp -> [pool-1-thread-4] - CACHED
+ 423 -  31 ==> [ 10 426 ]  14  15  12  46  72  135  154  42  53  0.5  1.031832    1830      4      9 ../fire-scenarios/jonquera/output/shape_5_236.shp -> [pool-1-thread-4] - CACHED
+ 424 -  32 ==> [ 10 427 ]  14  15  12  59  72  135  154  41  53  0.5  1.031832    1830      4      9 ../fire-scenarios/jonquera/output/shape_8_340.shp -> [pool-1-thread-4] - CACHED
+ 425 -  33 ==> [ 10 428 ]  14  15  13  59  88  135  154  42  53  0.5  1.031832    1830      4      8 ../fire-scenarios/jonquera/output/shape_10_428.shp -> [pool-1-thread-4]
+ 426 -  34 ==> [ 10 423 ]  14   3   8  25  72   14  154  41  53  0.5  1.837864    1530      4     47 ../fire-scenarios/jonquera/output/shape_10_423.shp -> [pool-1-thread-1]
+ 427 -  35 ==> [ 10 410 ]  13  15  12  49  86  135    8  42  69  0.5  1.665600    1020      4     79 ../fire-scenarios/jonquera/output/shape_10_410.shp -> [pool-1-thread-3]
+All threads have been finished successfully.
+Going to consolidate all fitness results
+Evaluation.Finish -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 11 / 10 / 10 / 64 / 64 <---------
+
+Last evaluation has been performed.
+Exception in thread "main" java.lang.NullPointerException
+	at java.base/java.util.TreeMap.put(TreeMap.java:561)
+	at java.base/java.util.TreeSet.add(TreeSet.java:255)
+	at com.edigley.tsp.stages.calibration.GeneticAlgorithm.lambda$run$1(GeneticAlgorithm.java:147)
+	at io.jenetics.internal.collection.ArraySeq.forEach(ArraySeq.java:107)
+	at com.edigley.tsp.stages.calibration.GeneticAlgorithm.lambda$run$2(GeneticAlgorithm.java:147)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1540)
+	at com.edigley.tsp.stages.calibration.GeneticAlgorithm.run(GeneticAlgorithm.java:147)
+	at com.edigley.tsp.stages.calibration.Calibrator.execute(Calibrator.java:103)
+	at com.edigley.tsp.stages.Stage.run(Stage.java:44)
+	at com.edigley.tsp.ui.CLI.runStage(CLI.java:77)
+	at com.edigley.tsp.ui.CLI.runCalibrationStage(CLI.java:95)
+	at com.edigley.tsp.ui.CLI.main(CLI.java:218)
+ 428 -  36 ==> [  9 387 ]  14  15  13  59  88  135   78  42  69  0.3  1.670575    1260      4    246 ../fire-scenarios/jonquera/output/shape_9_387.shp -> [pool-1-thread-2]
+Mar 29, 2022 10:13:48 PM org.geotools.referencing.factory.DeferredAuthorityFactory disposeBackingStore
+INFO: Disposing class org.geotools.referencing.factory.epsg.ThreadedHsqlEpsgFactory backing store
+Mar 29, 2022 10:13:48 PM org.hsqldb.persist.Logger logInfoEvent
+INFO: Database closed
+
+
+
+
+    	streamCollectedIndividuals.forEach(r -> {
+			r.getGenotypes()
+			 .forEach(
+					gt -> {
+						try {
+    						allIndividuals.add(
+    								cache.get(new FarsiteIndividual(gt))
+    						);
+						} catch (NullPointerException e) {
+				        	System.err.println("Failed! " + e.getMessage());
+				        	logger.error(e.getMessage(), e);
+				        }
+					}
+			);
+    	});
+
+ROOT_DIR="cloudcom2022/executions/jonquera"
+SCENARIO_DIR=${ROOT_DIR}"/2022-03-30_072616_strategy_agof_seed_28958"
+DIR=input  && mv fire-scenarios/jonquera/${DIR}/gen_*.* ${SCENARIO_DIR}/${DIR}
+DIR=output && mv fire-scenarios/jonquera/${DIR}/*       ${SCENARIO_DIR}/${DIR}
+mv two-stage-prediction/tsp.log ${SCENARIO_DIR}/${DIR}
+mv two-stage-prediction/two-stage-prediction.log ${SCENARIO_DIR}/${DIR}
+mv two-stage-prediction/*.png ${SCENARIO_DIR}/${DIR}
+mv ${ROOT_DIR}/jonquera_farsite_execution_memoization_agof.txt ${SCENARIO_DIR}/${DIR}
+
+
+
+
+
+
+
+
+igley@cariri:~/phd_uab/git-phd-workspace/two-stage-prediction$ sh run_scenario_cloudcom_2022.sh jonquera agof $RANDOM
+rm: não foi possível remover “/home/edigley/git-phd-workspace/fire-scenarios/jonquera/input/gen*.*”: Arquivo ou diretório não encontrado
+rm: não foi possível remover “/home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/raster_*.LGR”: Arquivo ou diretório não encontrado
+rm: não foi possível remover “/home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_*.*”: Arquivo ou diretório não encontrado
+rm: não foi possível remover “/home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/settings_*.txt”: Arquivo ou diretório não encontrado
+09:47:40,070 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+09:47:40,071 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+09:47:40,072 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [jar:file:/home/edigley/phd_uab/git-phd-workspace/two-stage-prediction/target/two-stage-prediction-0.0.1-SNAPSHOT.jar!/logback.xml]
+09:47:40,080 |-INFO in ch.qos.logback.core.joran.spi.ConfigurationWatchList@7a187f14 - URL [jar:file:/home/edigley/phd_uab/git-phd-workspace/two-stage-prediction/target/two-stage-prediction-0.0.1-SNAPSHOT.jar!/logback.xml] is not of type file
+09:47:40,131 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+09:47:40,131 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+09:47:40,135 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [CONSOLE]
+09:47:40,175 |-WARN in ch.qos.logback.core.ConsoleAppender[CONSOLE] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+09:47:40,175 |-WARN in ch.qos.logback.core.ConsoleAppender[CONSOLE] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+09:47:40,175 |-WARN in ch.qos.logback.core.ConsoleAppender[CONSOLE] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+09:47:40,175 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.FileAppender]
+09:47:40,178 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [FILE]
+09:47:40,180 |-WARN in ch.qos.logback.core.FileAppender[FILE] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+09:47:40,180 |-WARN in ch.qos.logback.core.FileAppender[FILE] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+09:47:40,180 |-WARN in ch.qos.logback.core.FileAppender[FILE] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+09:47:40,180 |-INFO in ch.qos.logback.core.FileAppender[FILE] - File property is set to [tsp.log]
+09:47:40,181 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.edigley] to DEBUG
+09:47:40,181 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.edigley] to false
+09:47:40,181 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [FILE] to Logger[com.edigley]
+09:47:40,181 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to ERROR
+09:47:40,181 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [CONSOLE] to Logger[ROOT]
+09:47:40,181 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+09:47:40,182 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@6f195bc3 - Registering current configuration as safe fallback point
+
+Evaluation.Start  -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 1 / 1 / 1 / 64 / 0 <---------
+Going to wait for all the 64 threads in order to finish...
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.geotools.resources.NIOUtilities (file:/home/edigley/phd_uab/git-phd-workspace/two-stage-prediction/target/dependency-jars/gt-metadata-19.3.jar) to method java.nio.DirectByteBuffer.cleaner()
+WARNING: Please consider reporting this to the maintainers of org.geotools.resources.NIOUtilities
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Mar 30, 2022 9:48:12 AM org.hsqldb.persist.Logger logInfoEvent
+INFO: dataFileCache open start
+   1 -   1 ==> [  1   3 ]  14   3   2  30  93   24   85  38  98  0.2  0.002477     270      1     33 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_3.shp -> [pool-1-thread-3]
+   2 -   2 ==> [  1   4 ]   9   3   8  59  82   13  326  49  90  1.0  0.057762     390      1     33 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_4.shp -> [pool-1-thread-4]
+   3 -   3 ==> [  1   1 ]  11   3   4  70  90   30  127  40  64  1.5  0.001514     360      1     33 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_1.shp -> [pool-1-thread-1]
+   4 -   4 ==> [  1   2 ]   2   5   9  50  88   40   62  42  32  1.1  0.000339     210      1     33 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_2.shp -> [pool-1-thread-2]
+   5 -   5 ==> [  1   8 ]  11   8   6  23  80  106  141  30  96  0.2  0.002399    1830      1     22 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_8.shp -> [pool-1-thread-2]
+   6 -   6 ==> [  1   6 ]  12   9   4  46  90   82  236  48  96  0.2  0.000297    1830      1     58 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_6.shp -> [pool-1-thread-4]
+   7 -   7 ==> [  1   5 ]  10   9   5  44  80  104  246  30  47  0.9  0.000016     300      1     61 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_5.shp -> [pool-1-thread-3]
+   8 -   8 ==> [  1   9 ]   4   4   3  42  90   26  103  50  92  1.2  0.003122     330      1     39 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_9.shp -> [pool-1-thread-2]
+   9 -   9 ==> [  1  10 ]   5   8   7  49  82   88  216  33  88  0.1  0.000947    1830      1      9 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_10.shp -> [pool-1-thread-4]
+  10 -  10 ==> [  1   7 ]   9  15  14  26  84   38   23  43  71  1.6  0.033784    1080      1     80 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_7.shp -> [pool-1-thread-1]
+  11 -  11 ==> [  1  12 ]  12  15   8  67  82   68  114  45  41  0.1  0.001339    1830      1     20 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_12.shp -> [pool-1-thread-2]
+  12 -  12 ==> [  1  14 ]   7   8  14  43  70   95  150  43  63  0.1  0.001702    1830      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_14.shp -> [pool-1-thread-1]
+  13 -  13 ==> [  1  13 ]  10  14  12  46  88   62  299  38  67  0.3  0.000001     240      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_13.shp -> [pool-1-thread-4]
+  14 -  14 ==> [  1  16 ]   8   6   8  29  87  120  152  45  87  0.1  0.001728    1830      1     15 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_16.shp -> [pool-1-thread-1]
+  15 -  15 ==> [  1  11 ]   9  10   5  53  92   81   98  45  61  0.1  0.003840    1830      1     41 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_11.shp -> [pool-1-thread-3]
+  16 -  16 ==> [  1  17 ]  13  10   3  32  78  137  224  40  40  1.3  0.000509    1830      1     14 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_17.shp -> [pool-1-thread-4]
+  17 -  17 ==> [  1  18 ]  10   6   5  53  72   51  182  48  87  0.5  0.001277    1830      1     14 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_18.shp -> [pool-1-thread-1]
+  18 -  18 ==> [  1  15 ]   2  11  15  65  95   80   11  45  61  0.4  0.010126     270      1     40 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_15.shp -> [pool-1-thread-2]
+All threads have been finished successfully.
+Going to consolidate all fitness results
+Evaluation.Finish -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 1 / 1 / 1 / 64 / 64 <---------
+
+  19 -  19 ==> [  1  19 ]   7  11  12  41  84   57  281  46  44  1.6  0.000001     210      1     49 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_19.shp -> [pool-1-thread-3]
+  20 -  20 ==> [  1  20 ]   5  13  13  41  97  139  341  49  55  1.0  0.034847     240      1     39 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_20.shp -> [pool-1-thread-4]
+  21 -  21 ==> [  1  21 ]   7   2   4  29  95   12  139  46  91  1.8  0.026628    1290      1     40 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_21.shp -> [pool-1-thread-1]
+  22 -  22 ==> [  1  24 ]   7  11   4  62  92  139  158  37  77  1.9  0.001549    1830      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_24.shp -> [pool-1-thread-4]
+  23 -  23 ==> [  1  23 ]   9   3   5  34  71  129  187  35  64  1.3  0.001737    1830      1      7 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_23.shp -> [pool-1-thread-3]
+  24 -  24 ==> [  1  22 ]  10  15   2  51  80  143  314  38  52  0.7  0.000140     270      1     38 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_22.shp -> [pool-1-thread-2]
+  25 -  25 ==> [  1  27 ]   9  10   4  41  97  105  194  44  70  0.9  0.001144    1830      1      6 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_27.shp -> [pool-1-thread-3]
+  26 -  26 ==> [  1  29 ]  11   3   9  28  95    6   17  44  92  1.4  0.028980    1830      1      9 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_29.shp -> [pool-1-thread-3]
+  27 -  27 ==> [  1  26 ]   5  15  12  44  81   57  115  38  78  1.8  0.002138    1830      1     16 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_26.shp -> [pool-1-thread-4]
+  28 -  28 ==> [  1  25 ]  12  15  12  46  88   86   10  37  33  1.7  0.013302     330      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_25.shp -> [pool-1-thread-1]
+  29 -  29 ==> [  1  28 ]   4   2  14  35  95  122  237  30  72  0.1  0.000051     300      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_28.shp -> [pool-1-thread-2]
+  30 -  30 ==> [  1  31 ]   6   5  10  38  94   70   63  45  41  0.5  0.000043     210      1     46 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_31.shp -> [pool-1-thread-4]
+  31 -  31 ==> [  1  30 ]  10   8   9  64  99   85    7  36  43  1.6  0.012097     210      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_30.shp -> [pool-1-thread-3]
+  32 -  32 ==> [  1  34 ]  14  15   6  58  96   47  124  30  85  1.4  0.001995    1830      1     20 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_34.shp -> [pool-1-thread-4]
+  33 -  33 ==> [  1  32 ]  12  11  10  40  79   44  206  36  43  1.9  0.000838    1830      1     28 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_32.shp -> [pool-1-thread-1]
+  34 -  34 ==> [  1  33 ]   7  13   3  25  91   36  343  45  98  1.5  0.046081     240      1     52 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_33.shp -> [pool-1-thread-2]
+  35 -  35 ==> [  1  35 ]  15  10   7  20 100   55  313  48  39  0.8  0.000070     210      1     39 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_35.shp -> [pool-1-thread-3]
+  36 -  36 ==> [  1  37 ]   5   2   2  60 100   55   32  50  58  1.7  0.001299     360      1     38 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_37.shp -> [pool-1-thread-1]
+  37 -  37 ==> [  1  39 ]  14   9  12  36  91  130  227  47  52  0.8  0.000442    1830      1     25 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_39.shp -> [pool-1-thread-3]
+  38 -  38 ==> [  1  36 ]   2   2  11  49  98  118  260  41  42  1.3  0.000000      90      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_36.shp -> [pool-1-thread-4]
+  39 -  39 ==> [  1  38 ]   7  14  11  69  98  111   64  32  96  0.5  0.000413    1350      1     31 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_38.shp -> [pool-1-thread-2]
+  40 -  40 ==> [  1  40 ]  13   6  14  49  88   69  252  30  42  1.6  0.000006     240      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_40.shp -> [pool-1-thread-1]
+  41 -  41 ==> [  1  42 ]  10   6  13  32  72   36  179  47  33  1.3  0.000644     480      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_42.shp -> [pool-1-thread-4]
+  42 -  42 ==> [  1  43 ]  10  12   6  23  92   56   13  38  46  1.3  0.008315     300      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_43.shp -> [pool-1-thread-2]
+  43 -  43 ==> [  1  41 ]   8  13  15  56  92  133   27  50  69  0.1  0.008613    1260      1     66 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_41.shp -> [pool-1-thread-3]
+  44 -  44 ==> [  1  45 ]   2   9   6  60  85  129  331  45  58  0.6  0.004329     150      1     33 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_45.shp -> [pool-1-thread-4]
+  45 -  45 ==> [  1  44 ]  13   4  11  70  99  109  236  41  88  1.3  0.000059     360      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_44.shp -> [pool-1-thread-1]
+  46 -  46 ==> [  1  48 ]   5   6   2  70  81   61   18  30  37  1.4  0.002532     150      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_48.shp -> [pool-1-thread-4]
+  47 -  47 ==> [  1  46 ]   5   4  13  67  79  145  250  42  97  1.1  0.000009     210      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_46.shp -> [pool-1-thread-2]
+  48 -  48 ==> [  1  47 ]   3   3   9  35  72   75  256  36  92  0.9  0.000001     120      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_47.shp -> [pool-1-thread-3]
+  49 -  49 ==> [  1  49 ]   2  12   7  49  98  113   95  45  99  1.1  0.003153    1830      1     32 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_49.shp -> [pool-1-thread-1]
+  50 -  50 ==> [  1  51 ]   3   6   6  64  89   55  140  42  79  1.0  0.002597    1830      1     23 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_51.shp -> [pool-1-thread-2]
+  51 -  51 ==> [  1  50 ]   3  11   2  49  76   46   82  44  42  1.7  0.000547     390      1     32 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_50.shp -> [pool-1-thread-4]
+  52 -  52 ==> [  1  53 ]   4   9  11  54  87  118  282  30  31  0.8  0.000001     180      1     50 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_53.shp -> [pool-1-thread-1]
+  53 -  53 ==> [  1  52 ]   8   6   4  53  73   67  260  42  32  1.8  0.000001     180      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_52.shp -> [pool-1-thread-3]
+  54 -  54 ==> [  1  54 ]  10  12   3  34  73  143  317  41  32  0.5  0.000266     240      1     38 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_54.shp -> [pool-1-thread-2]
+  55 -  55 ==> [  1  55 ]  15   4   3  68  77   78  310  44  30  1.3  0.000008     150      1     32 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_55.shp -> [pool-1-thread-4]
+  56 -  56 ==> [  1  58 ]  13   6  10  48  89   78  180  40  50  1.1  0.001539    1830      1      6 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_58.shp -> [pool-1-thread-2]
+  57 -  57 ==> [  1  59 ]  14   8   8  29  90    3   61  37  94  0.2  0.008827    1830      1      9 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_59.shp -> [pool-1-thread-4]
+  58 -  58 ==> [  1  56 ]   8  15   4  26  74   36  283  44  96  0.6  0.000013     210      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_56.shp -> [pool-1-thread-1]
+  59 -  59 ==> [  1  57 ]   7   7   5  68  73   96  312  47  81  1.9  0.000028     150      1     31 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_57.shp -> [pool-1-thread-3]
+  60 -  60 ==> [  1  60 ]  13   2   5  51 100   17  189  36  45  0.5  0.010328    1830      1     41 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_60.shp -> [pool-1-thread-2]
+  61 -  61 ==> [  1  62 ]   2  11  11  58  72   94  113  42  55  0.7  0.002919    1830      1     25 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_62.shp -> [pool-1-thread-1]
+Generation = 1 / Evaluation Duration = 180
+
+Evaluation.Start  -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 2 / 1 / 1 / 64 / 30 <---------
+Going to wait for all the 34 threads in order to finish...
+  62 -   1 ==> [  1  61 ]   7   6  10  56  92  128   52  34  57  1.4  0.000049     210      1     52 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_61.shp -> [pool-1-thread-4]
+  63 -   2 ==> [  1  64 ]   8   8   2  20  91   85  140  34  90  0.6  0.002326    1830      1     19 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_64.shp -> [pool-1-thread-2]
+  64 -   3 ==> [  1  66 ]  13   4  11  70  99    6  236  41  88  1.3  0.002576    1830      1      7 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_66.shp -> [pool-1-thread-4]
+  65 -   4 ==> [  1  63 ]   6   3   5  62  99   33  351  34  47  1.4  0.026436     150      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_63.shp -> [pool-1-thread-3]
+  66 -   5 ==> [  1  69 ]   5  15  12  44  81   57  115  38  78  1.8  0.002138    1830      1     16 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_26.shp -> [pool-1-thread-3] - CACHED
+  67 -   6 ==> [  1  67 ]  11   3   9  28  95    6   17  44  37  1.4  0.193721    1830      1     34 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_67.shp -> [pool-1-thread-2]
+  68 -   7 ==> [  1  65 ]  13   4  11  70  99  109  236  41  30  1.3  0.000059     360      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_65.shp -> [pool-1-thread-1]
+  69 -   8 ==> [  1  68 ]   8   3   5  56  92  133  293  50  69  0.1  0.000001     150      1     53 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_68.shp -> [pool-1-thread-4]
+  70 -   9 ==> [  1  73 ]  11   3   9  28  95    6   17  37  92  1.4  0.043082    1830      1     12 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_73.shp -> [pool-1-thread-4]
+  71 -  10 ==> [  1  70 ]  10  14   9  69  78  111   64  32  96  1.0  0.000455    1620      1     53 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_70.shp -> [pool-1-thread-3]
+  72 -  11 ==> [  1  71 ]   5  15   2  32  80  143  314  38  52  0.7  0.000155     270      1     49 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_71.shp -> [pool-1-thread-2]
+  73 -  12 ==> [  1  74 ]  14  15   6  58  96  134  124  30  85  1.3  0.001667    1830      1     16 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_74.shp -> [pool-1-thread-4]
+  74 -  13 ==> [  1  75 ]  13   9  12  36  91  130  227  47  52  0.8  0.000443    1830      1     23 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_75.shp -> [pool-1-thread-3]
+  75 -  14 ==> [  1  78 ]   9   3   5  34  71  129  187  35  64  1.3  0.001737    1830      1      7 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_23.shp -> [pool-1-thread-3] - CACHED
+  76 -  15 ==> [  1  72 ]   3  15   4  26  74   36   24  41  69  0.6  0.008530     300      1     61 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_72.shp -> [pool-1-thread-1]
+  77 -  16 ==> [  1  76 ]   7  13  13  25  91   36  343  45  98  1.5  0.046332     210      1     43 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_76.shp -> [pool-1-thread-2]
+  78 -  17 ==> [  1  79 ]   2  12   7  49  98  113   95  45  33  1.1  0.003689    1830      1     34 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_79.shp -> [pool-1-thread-3]
+  79 -  18 ==> [  1  77 ]   5   4   3  67  79  145  250  42  97  1.1  0.000009     210      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_77.shp -> [pool-1-thread-4]
+  80 -  19 ==> [  1  80 ]  10   6  15  70  81   62   18  44  54  1.4  0.005041     300      1     38 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_80.shp -> [pool-1-thread-1]
+  81 -  20 ==> [  1  81 ]   3   6   6  64 100   55  118  42  79  1.3  0.003764    1830      1     34 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_81.shp -> [pool-1-thread-2]
+All threads have been finished successfully.
+Going to consolidate all fitness results
+Evaluation.Finish -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 2 / 1 / 1 / 64 / 64 <---------
+
+  82 -  21 ==> [  1  82 ]   2  12   7  49  98  113   95  30  99  1.8  0.003846    1830      1     37 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_82.shp -> [pool-1-thread-3]
+  83 -  22 ==> [  1  84 ]   5   4  13  68  79  145  250  42  97  1.1  0.000009     210      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_84.shp -> [pool-1-thread-1]
+  84 -  23 ==> [  1  86 ]  15  10   6  24  95   55  313  48  39  0.8  0.000104     240      1     44 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_86.shp -> [pool-1-thread-3]
+  85 -  24 ==> [  1  83 ]  12   3   9  58  95  109   17  30  92  1.4  0.025478     840      1     73 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_83.shp -> [pool-1-thread-4]
+  86 -  25 ==> [  1  89 ]  13   6  10  48  89   78  180  33  50  1.1  0.001539    1830      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_89.shp -> [pool-1-thread-4]
+  87 -  26 ==> [  1  90 ]   2  12   7  49  98  113   95  45  99  1.1  0.003153    1830      1     32 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_49.shp -> [pool-1-thread-4] - CACHED
+  88 -  27 ==> [  1  88 ]  15   2   3  51  89  143  189  36  60  1.0  0.001800    1830      1      8 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_88.shp -> [pool-1-thread-3]
+  89 -  28 ==> [  1  85 ]   2   9  12  62  85   61   63  45  58  0.6  0.000546     540      1     65 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_85.shp -> [pool-1-thread-2]
+  90 -  29 ==> [  1  92 ]   5   3   9  28 100    6   17  44  92  1.4  0.029062    1830      1      9 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_92.shp -> [pool-1-thread-3]
+  91 -  30 ==> [  1  91 ]  15   7   3  49  77   78   27  44  88  1.4  0.012893    1470      1     45 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_91.shp -> [pool-1-thread-4]
+  92 -  31 ==> [  1  87 ]   5   2   2  70  81   61   18  30  37  1.4  0.002177     120      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_87.shp -> [pool-1-thread-1]
+  93 -  32 ==> [  1  93 ]  12  15   6  46  88   86   10  44  99  1.7  0.070653    1560      1     51 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_93.shp -> [pool-1-thread-2]
+  94 -  33 ==> [  1  94 ]   5   6   2  60 100   55   32  50  58  1.7  0.001741     480      1     45 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_94.shp -> [pool-1-thread-3]
+  95 -  34 ==> [  1  98 ]  14  10   5  29  90    3   61  49  94  0.2  0.010677    1830      1      9 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_98.shp -> [pool-1-thread-3]
+Generation = 2 / Evaluation Duration = 180
+
+Evaluation.Start  -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 3 / 2 / 2 / 64 / 29 <---------
+Going to wait for all the 35 threads in order to finish...
+  96 -   1 ==> [  1  97 ]  14  15   6  51  96   47  124  30  85  1.4  0.001995    1830      1     19 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_97.shp -> [pool-1-thread-2]
+  97 -   2 ==> [  1  95 ]  13   2   8  28 100   17  189  36  45  0.5  0.001943     480      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_95.shp -> [pool-1-thread-4]
+  98 -   3 ==> [  1  96 ]  14  11   2  67  76   46   82  35  42  0.3  0.000678     450      1     34 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_96.shp -> [pool-1-thread-1]
+  99 -   4 ==> [  2 101 ]   7   7   5  68  87    6  312  47  81  1.9  0.013713    1830      1      6 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_101.shp -> [pool-1-thread-4]
+ 100 -   5 ==> [  2 100 ]   8   8   9  20  91   85  140  34  90  0.6  0.002348    1830      1     19 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_100.shp -> [pool-1-thread-2]
+ 101 -   6 ==> [  2 102 ]   2  11   4  58  74   94  113  42  55  0.7  0.002919    1830      1     24 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_102.shp -> [pool-1-thread-1]
+ 102 -   7 ==> [  2  99 ]  12  15   2  46  88   86   10  37  33  1.7  0.010964     270      1     41 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_99.shp -> [pool-1-thread-3]
+ 103 -   8 ==> [  2 104 ]   2  14   7  47  79  113   95  31  50  1.8  0.003651    1830      1     33 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_104.shp -> [pool-1-thread-2]
+ 104 -   9 ==> [  2 107 ]   7  11   4  62  92  139  158  37  77  1.9  0.001549    1830      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_24.shp -> [pool-1-thread-2] - CACHED
+ 105 -  10 ==> [  2 105 ]  13   2   5  51 100   17  189  36  50  0.5  0.002436     510      1     39 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_105.shp -> [pool-1-thread-1]
+ 106 -  11 ==> [  2 103 ]   5   6  12  60 100   55   32  50  58  1.7  0.003381     900      1     64 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_103.shp -> [pool-1-thread-4]
+ 107 -  12 ==> [  2 106 ]  10  12   3  34  79   78  317  41  32  0.5  0.000264     240      1     40 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_106.shp -> [pool-1-thread-3]
+ 108 -  13 ==> [  2 111 ]  14  15   6  58  96  143  124  30  85  1.4  0.001653    1830      1     15 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_111.shp -> [pool-1-thread-3]
+ 109 -  14 ==> [  2 108 ]   7   4  13  48 100  145  250  42  77  1.1  0.000008     210      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_108.shp -> [pool-1-thread-2]
+ 110 -  15 ==> [  2 109 ]   3   3   2  35  72   75  256  36  92  0.9  0.000001     120      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_109.shp -> [pool-1-thread-1]
+ 111 -  16 ==> [  2 110 ]  15   7  14  49  77   78   27  32  97  0.5  0.012334    1410      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_110.shp -> [pool-1-thread-4]
+ 112 -  17 ==> [  2 115 ]   7  11   4  62  92  139  158  37  77  1.9  0.001549    1830      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_24.shp -> [pool-1-thread-4] - CACHED
+ 113 -  18 ==> [  2 116 ]   7  11   4  62  92  139  158  37  77  1.9  0.001549    1830      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_24.shp -> [pool-1-thread-4] - CACHED
+ 114 -  19 ==> [  2 112 ]   5   7   5  69  73  106  312  47  81  1.9  0.000059     180      1     46 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_112.shp -> [pool-1-thread-3]
+ 115 -  20 ==> [  2 114 ]   7  11   4  62  92  139  158  37  88  1.9  0.001549    1830      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_114.shp -> [pool-1-thread-1]
+ 116 -  21 ==> [  2 117 ]  13   6   6  68  89   78  180  40  50  1.1  0.001539    1830      1      6 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_117.shp -> [pool-1-thread-4]
+ 117 -  22 ==> [  2 113 ]   7  13  13  28  91   36  343  45  98  1.5  0.046332     210      1     45 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_113.shp -> [pool-1-thread-2]
+ 118 -  23 ==> [  2 121 ]   7  11  11  58  92  139  158  37  77  1.9  0.001524    1830      1      4 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_121.shp -> [pool-1-thread-2]
+All threads have been finished successfully.
+Going to consolidate all fitness results
+Evaluation.Finish -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 3 / 2 / 2 / 64 / 64 <---------
+
+ 119 -  24 ==> [  2 118 ]  15  10   7  29  98   47  313  42  39  0.8  0.000185     210      1     53 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_118.shp -> [pool-1-thread-3]
+ 120 -  25 ==> [  2 123 ]  13   6  10  48  89  143  180  40  45  1.1  0.001539    1830      1      6 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_123.shp -> [pool-1-thread-3]
+ 121 -  26 ==> [  2 122 ]  10  12   3  34  73   55  317  41  32  1.4  0.000225     210      1     33 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_122.shp -> [pool-1-thread-2]
+ 122 -  27 ==> [  2 119 ]   3  11   2  67  76   75   63  35  42  0.3  0.000061     270      1     61 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_119.shp -> [pool-1-thread-1]
+ 123 -  28 ==> [  2 120 ]   6  13  10  38  94   70   82  45  51  0.5  0.002570    1500      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_120.shp -> [pool-1-thread-4]
+ 124 -  29 ==> [  2 127 ]  14  15  10  62  96   47  124  30  85  1.4  0.001995    1830      1     19 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_127.shp -> [pool-1-thread-4]
+ 125 -  30 ==> [  2 128 ]   5   6  10  48  89   78  180  40  99  1.1  0.001572    1830      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_128.shp -> [pool-1-thread-4]
+ 126 -  31 ==> [  2 129 ]   5   3   9  28 100    6   17  44  92  1.4  0.029062    1830      1      9 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_92.shp -> [pool-1-thread-4] - CACHED
+ 127 -  32 ==> [  2 124 ]   6   5  10  48  94   70   63  45  41  0.5  0.000043     210      1     32 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_124.shp -> [pool-1-thread-3]
+ 128 -  33 ==> [  2 131 ]  13   6  10  44  89   78  180  40  50  1.1  0.001539    1830      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_131.shp -> [pool-1-thread-3]
+ 129 -  34 ==> [  2 125 ]   2   3   6  60  85  129  331  45  87  0.6  0.003552     120      1     53 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_125.shp -> [pool-1-thread-2]
+ 130 -  35 ==> [  2 133 ]   2   9   6  60  85  129  331  45  58  0.6  0.004329     150      1     33 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_45.shp -> [pool-1-thread-2] - CACHED
+Generation = 3 / Evaluation Duration = 180
+
+Evaluation.Start  -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 4 / 3 / 3 / 64 / 27 <---------
+Going to wait for all the 37 threads in order to finish...
+ 131 -   1 ==> [  3 134 ]  13  13  10  48  89   78  180  40  50  1.1  0.001247    1830      1      4 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_134.shp -> [pool-1-thread-2]
+ 132 -   2 ==> [  2 126 ]  11   3   9  31  95   96   17  44  59  1.4  0.006301     330      1     56 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_126.shp -> [pool-1-thread-1]
+ 133 -   3 ==> [  2 130 ]  11   9   9  35  74   27  256  36  46  0.9  0.000029     180      1     31 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_130.shp -> [pool-1-thread-4]
+ 134 -   4 ==> [  3 136 ]   5  13  13  65  97  139  341  49  55  0.1  0.029801     210      1     32 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_136.shp -> [pool-1-thread-1]
+ 135 -   5 ==> [  2 132 ]   7  14  11  69  98  111   64  44  96  0.5  0.001670    1590      1     59 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_132.shp -> [pool-1-thread-3]
+ 136 -   6 ==> [  3 139 ]   6  14  11  69  98  111  124  44  96  0.5  0.001594    1830      1     15 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_139.shp -> [pool-1-thread-3]
+ 137 -   7 ==> [  3 137 ]  15  10   6  49  77   78   27  44  42  0.6  0.001398     300      1     52 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_137.shp -> [pool-1-thread-4]
+ 138 -   8 ==> [  3 138 ]   2   6  10  31  89   77  317  33  50  1.1  0.000122     120      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_138.shp -> [pool-1-thread-1]
+ 139 -   9 ==> [  3 142 ]   5   6   3  44  76   34   64  33  60  1.0  0.001444     360      1     35 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_142.shp -> [pool-1-thread-1]
+ 140 -  10 ==> [  3 140 ]   3   5  10  62  96   47  124  42  43  1.4  0.004583    1830      1     63 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_140.shp -> [pool-1-thread-3]
+ 141 -  11 ==> [  3 141 ]   2   6  10  60  73   41  124  45  51  0.5  0.001756     570      1     61 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_141.shp -> [pool-1-thread-4]
+ 142 -  12 ==> [  3 144 ]   5  12   2  38 100   55   32  50  58  1.7  0.000721     270      1     33 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_144.shp -> [pool-1-thread-3]
+ 143 -  13 ==> [  3 146 ]   7  11   7  61  84   61  158  37  77  1.9  0.001488    1830      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_146.shp -> [pool-1-thread-3]
+ 144 -  14 ==> [  3 147 ]  11   6  10  49  89   78  180  36  47  1.1  0.001546    1830      1      7 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_147.shp -> [pool-1-thread-3]
+ 145 -  15 ==> [  3 143 ]   7  14  11  69  83  111   64  44  64  1.4  0.001479    1290      1     64 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_143.shp -> [pool-1-thread-1]
+All threads have been finished successfully.
+Going to consolidate all fitness results
+Evaluation.Finish -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 4 / 3 / 3 / 64 / 64 <---------
+
+ 146 -  16 ==> [  3 145 ]   2  12   9  35  74  147  256  36  46  0.9  0.000003     240      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_145.shp -> [pool-1-thread-4]
+ 147 -  17 ==> [  3 148 ]  14  15  10  56  96   47  124  30  47  1.4  0.002028    1830      1     23 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_148.shp -> [pool-1-thread-3]
+ 148 -  18 ==> [  3 151 ]  13   6  10  35  89  143  180  40  45  1.1  0.001539    1830      1      7 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_151.shp -> [pool-1-thread-3]
+ 149 -  19 ==> [  3 149 ]  14  15   6  26  96  143   82  47  85  1.4  0.001068    1200      1     48 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_149.shp -> [pool-1-thread-1]
+ 150 -  20 ==> [  3 150 ]  14  13  13  28  91   36  343  45  98  1.5  0.052956     240      1     38 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_150.shp -> [pool-1-thread-4]
+ 151 -  21 ==> [  3 152 ]  15   7   3  48  77   78   27  44  88  1.4  0.010936    1410      1     37 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_152.shp -> [pool-1-thread-3]
+ 152 -  22 ==> [  3 153 ]  10   6   4  34  73   55  317  41  32  1.4  0.000152     150      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_153.shp -> [pool-1-thread-1]
+ 153 -  23 ==> [  3 154 ]   7   7   5  68  73   96  312  45  81  1.9  0.000028     150      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_154.shp -> [pool-1-thread-4]
+ 154 -  24 ==> [  3 156 ]   5  12   3  34  77   55  180  41  32  1.4  0.001245    1830      1      6 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_156.shp -> [pool-1-thread-1]
+ 155 -  25 ==> [  3 158 ]   7   7   5  68  73   96  312  47  81  1.9  0.000028     150      1     31 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_57.shp -> [pool-1-thread-1] - CACHED
+ 156 -  26 ==> [  3 155 ]  15   6   2  60 100   55   32  50  58  1.7  0.001058     360      1     31 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_155.shp -> [pool-1-thread-3]
+ 157 -  27 ==> [  3 157 ]  11   9   9  62  74   27  256  36  46  0.9  0.000029     180      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_157.shp -> [pool-1-thread-4]
+ 158 -  28 ==> [  3 159 ]   7   3   5  62  99   33  351  34  50  1.4  0.027912     150      1     54 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_159.shp -> [pool-1-thread-1]
+ 159 -  29 ==> [  3 160 ]  15   3   9  31  95   96   41  44  59  0.5  0.001554     960      1     71 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_160.shp -> [pool-1-thread-3]
+ 160 -  30 ==> [  3 161 ]   7   3  10  48  90   33  351  42  47  1.1  0.027912     150      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_161.shp -> [pool-1-thread-4]
+ 161 -  31 ==> [  3 162 ]  14  15   6  51  96   47   64  30  85  0.5  0.002211    1470      1     41 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_162.shp -> [pool-1-thread-1]
+ 162 -  32 ==> [  3 163 ]   7   7   5  68  73   96  312  30  81  1.9  0.000028     150      1     33 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_163.shp -> [pool-1-thread-3]
+ 163 -  33 ==> [  3 164 ]   6  11   2  67  89   12   14  35  88  0.3  0.249115    1530      1     38 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_164.shp -> [pool-1-thread-4]
+ 164 -  34 ==> [  3 166 ]   6   5   5  38  94   70   63  45  41  0.5  0.000043     210      1     31 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_166.shp -> [pool-1-thread-3]
+ 165 -  35 ==> [  3 165 ]   9   5  10  38  94   70   63  47  82  0.5  0.003076    1080      1     63 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_165.shp -> [pool-1-thread-1]
+ 166 -  36 ==> [  3 169 ]   8   6  10  48  89  122   67  40  45  1.4  0.000243    1830      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_169.shp -> [pool-1-thread-1]
+ 167 -  37 ==> [  3 167 ]  11   3   3  60  91  129  331  49  73  0.6  0.004252     150      1     49 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_167.shp -> [pool-1-thread-4]
+Generation = 4 / Evaluation Duration = 180
+
+Evaluation.Start  -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 5 / 4 / 4 / 64 / 29 <---------
+Going to wait for all the 35 threads in order to finish...
+ 168 -   1 ==> [  3 168 ]   2   3   6  60  85  129  331  34  87  0.6  0.003552     120      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_168.shp -> [pool-1-thread-3]
+ 169 -   2 ==> [  3 170 ]  13   7   3  49  73   97   27  44  88  0.5  0.011965    1440      1     44 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_170.shp -> [pool-1-thread-1]
+ 170 -   3 ==> [  4 172 ]  14  15  10  59  96   47  124  30  85  1.4  0.001995    1830      1     19 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_172.shp -> [pool-1-thread-3]
+ 171 -   4 ==> [  4 173 ]  14   5  15  56  96   81  124  40  78  1.4  0.002164    1830      1     19 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_173.shp -> [pool-1-thread-1]
+ 172 -   5 ==> [  4 171 ]  15   7   3  49  77   78   27  36  88  1.4  0.009738    1320      1     61 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_171.shp -> [pool-1-thread-4]
+ 173 -   6 ==> [  4 174 ]  14  15   6  51  96   47   64  30  58  0.5  0.001171     750      1     32 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_174.shp -> [pool-1-thread-3]
+ 174 -   7 ==> [  4 175 ]  10  15  12  46  88   86   10  37  33  1.7  0.010885     270      1     39 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_175.shp -> [pool-1-thread-1]
+ 175 -   8 ==> [  4 178 ]  15   7   3  48  77   78   27  44  88  1.4  0.010936    1410      1     37 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_152.shp -> [pool-1-thread-1] - CACHED
+ 176 -   9 ==> [  4 176 ]  14   7   3  49  77   78   27  44  88  1.4  0.010058    1380      1     35 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_176.shp -> [pool-1-thread-4]
+ 177 -  10 ==> [  4 177 ]   9   5  10  38  94   70  313  47  82  0.5  0.000044     150      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_177.shp -> [pool-1-thread-3]
+ 178 -  11 ==> [  4 180 ]  14  15  10  56  91   47  124  30  41  1.4  0.002037    1830      1     21 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_180.shp -> [pool-1-thread-4]
+ 179 -  12 ==> [  4 179 ]  15  10   7  29  98   47   63  42  98  0.8  0.002560    1410      1     31 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_179.shp -> [pool-1-thread-1]
+ 180 -  13 ==> [  4 181 ]  12  15   6  62  96  124  124  30  47  1.5  0.001635    1830      1     15 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_181.shp -> [pool-1-thread-3]
+ 181 -  14 ==> [  4 182 ]  11   5   2  60 100   55  236  40  85  1.7  0.000051     330      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_182.shp -> [pool-1-thread-4]
+All threads have been finished successfully.
+Going to consolidate all fitness results
+Evaluation.Finish -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 5 / 4 / 4 / 64 / 64 <---------
+
+ 182 -  15 ==> [  4 183 ]   4   6   6  60  90   55   32  50  91  1.7  0.003900    1260      1     64 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_183.shp -> [pool-1-thread-1]
+ 183 -  16 ==> [  4 184 ]   6   5   6  38  89   70   63  45  47  0.7  0.000039     300      1     59 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_184.shp -> [pool-1-thread-3]
+ 184 -  17 ==> [  4 185 ]  14  13  10  62  96   47  124  30  85  1.4  0.002735    1830      1     25 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_185.shp -> [pool-1-thread-4]
+ 185 -  18 ==> [  4 186 ]   3   7   5  68  73   96  312  45  81  1.9  0.000018     120      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_186.shp -> [pool-1-thread-1]
+ 186 -  19 ==> [  4 187 ]  13   4  11  56  99  109  236  41  81  1.8  0.000059     360      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_187.shp -> [pool-1-thread-3]
+ 187 -  20 ==> [  4 188 ]   2  15  13  28  91   36  214  30  98  1.5  0.000806    1830      1     53 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_188.shp -> [pool-1-thread-4]
+ 188 -  21 ==> [  4 189 ]  11   9   9  62  84   78  256  30  92  0.9  0.000003     240      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_189.shp -> [pool-1-thread-1]
+ 189 -  22 ==> [  4 191 ]   7  15  14  48  96  143   82  47  85  1.4  0.001106    1170      1     33 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_191.shp -> [pool-1-thread-4]
+ 190 -  23 ==> [  4 190 ]  14   4  13  59  91  139  343  45  39  1.0  0.029429     180      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_190.shp -> [pool-1-thread-3]
+ 191 -  24 ==> [  4 194 ]   5  13  13  65  97    1  341  49  64  0.1  0.002899    1830      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_194.shp -> [pool-1-thread-3]
+ 192 -  25 ==> [  4 192 ]  12   3   9  58  88  109   17  34  92  1.4  0.032423    1020      1     68 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_192.shp -> [pool-1-thread-1]
+ 193 -  26 ==> [  4 193 ]  13   7   5  49  73   97   27  40  88  1.0  0.012844    1440      1     63 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_193.shp -> [pool-1-thread-4]
+ 194 -  27 ==> [  4 195 ]  14  14   2  60 100  134   32  50  58  1.7  0.004275    1260      1     62 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_195.shp -> [pool-1-thread-3]
+ 195 -  28 ==> [  4 196 ]  12   6   4  34  73   55  317  41  32  1.4  0.000145     150      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_196.shp -> [pool-1-thread-1]
+ 196 -  29 ==> [  4 198 ]  14  15  10  70  96   47  124  30  47  1.4  0.002028    1830      1     21 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_198.shp -> [pool-1-thread-3]
+ 197 -  30 ==> [  4 197 ]  12   3  12  46  88   86   10  37  33  1.7  0.007364     180      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_197.shp -> [pool-1-thread-4]
+ 198 -  31 ==> [  4 201 ]  13   6  10  48  89  143  180  40  45  1.1  0.001539    1830      1      6 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_123.shp -> [pool-1-thread-4] - CACHED
+ 199 -  32 ==> [  4 199 ]   7  15   5  62  99   33  351  34  50  1.4  0.046647     270      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_199.shp -> [pool-1-thread-1]
+ 200 -  33 ==> [  4 200 ]   8  15  11  52  99  109   32  41  55  1.3  0.001562     510      1     43 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_200.shp -> [pool-1-thread-3]
+ 201 -  34 ==> [  4 202 ]  12  11  10  49  90   75  351  47  85  1.1  0.036475     210      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_202.shp -> [pool-1-thread-4]
+ 202 -  35 ==> [  4 205 ]   7  15   5  35  72   33  256  36  79  0.9  0.000018     210      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_205.shp -> [pool-1-thread-4]
+Generation = 5 / Evaluation Duration = 180
+
+Evaluation.Start  -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 6 / 5 / 5 / 64 / 26 <---------
+Going to wait for all the 38 threads in order to finish...
+ 203 -   1 ==> [  5 206 ]   5  12   3  34  77   55  180  36  32  1.4  0.001245    1830      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_206.shp -> [pool-1-thread-4]
+ 204 -   2 ==> [  4 204 ]   7   3  12  46  88   86   10  37  33  1.7  0.006074     150      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_204.shp -> [pool-1-thread-3]
+ 205 -   3 ==> [  4 203 ]  11  15   2  52  96   47   64  44  72  0.5  0.002192    1290      1     65 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_203.shp -> [pool-1-thread-1]
+ 206 -   4 ==> [  5 208 ]  14  14   2  60  75  134   32  50  46  1.7  0.000701     270      1      8 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_208.shp -> [pool-1-thread-3]
+ 207 -   5 ==> [  5 210 ]  11   6  10  48  89   78  180  40  99  1.1  0.001546    1830      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_210.shp -> [pool-1-thread-3]
+ 208 -   6 ==> [  5 207 ]   2   8   3  34  77   55  270  44  32  1.4  0.000001     150      1     50 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_207.shp -> [pool-1-thread-4]
+ 209 -   7 ==> [  5 212 ]   3   7   5  68  87   96  312  45  85  1.9  0.000018     120      1     32 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_212.shp -> [pool-1-thread-4]
+ 210 -   8 ==> [  5 209 ]  12   7  12  29  88   59   10  37  33  1.7  0.008275     210      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_209.shp -> [pool-1-thread-1]
+ 211 -   9 ==> [  5 213 ]   6   6  10  46  89   78  180  41  32  1.2  0.001567    1830      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_213.shp -> [pool-1-thread-4]
+ 212 -  10 ==> [  5 211 ]  13   4  11  56  88   55  236  41  81  1.8  0.000046     300      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_211.shp -> [pool-1-thread-3]
+ 213 -  11 ==> [  5 216 ]  14  15  10  62  96   47  124  30  85  1.4  0.001995    1830      1     19 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_127.shp -> [pool-1-thread-3] - CACHED
+ 214 -  12 ==> [  5 215 ]  14  15  10  70  90  109  124  30  47  1.4  0.001614    1830      1     14 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_215.shp -> [pool-1-thread-4]
+ 215 -  13 ==> [  5 214 ]  13   7   5  49  73   97   27  40  50  1.0  0.001397     300      1     31 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_214.shp -> [pool-1-thread-1]
+ 216 -  14 ==> [  5 217 ]  14  10  10  62  96   47  124  30  81  1.4  0.003368    1830      1     28 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_217.shp -> [pool-1-thread-3]
+ 217 -  15 ==> [  5 218 ]  11  13  12  41  88   86   10  37  46  1.7  0.010942     270      1     41 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_218.shp -> [pool-1-thread-4]
+ 218 -  16 ==> [  5 219 ]  15   7   3  62  73   78   27  44  88  1.4  0.011923    1440      1     36 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_219.shp -> [pool-1-thread-1]
+Couldn't compare non-finished scenario result for individual. Error message: found non-noded intersection between LINESTRING ( 480453.674080826 4694605.792084936, 480453.67407276446 4694606.081919798 ) and LINESTRING ( 480453.67407254153 4694606.089935448, 480453.67408265406 4694605.726359697 ) [ (480453.6740760311, 4694605.964474857, NaN) ]
+All threads have been finished successfully.
+Going to consolidate all fitness results
+Evaluation.Finish -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 6 / 5 / 5 / 64 / 64 <---------
+
+ 219 -  17 ==> [  5 222 ]   6   5   6  38  89   70   63  44  47  0.9  0.000069     360      1     35 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_222.shp -> [pool-1-thread-1]
+ 220 -  18 ==> [  5 220 ]   4   7   3  48  77   78   27  44  88  1.4  0.006082    1140      1     69 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_220.shp -> [pool-1-thread-3]
+ 221 -  19 ==> [  5 224 ]  14  14   2  60 100  134   32  50  58  1.7  0.004275    1260      1     62 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_195.shp -> [pool-1-thread-3] - CACHED
+ 222 -  20 ==> [  5 221 ]  15   7   3  49  77   78  236  41  88  1.4  0.000079     480      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_221.shp -> [pool-1-thread-4]
+ 223 -  21 ==> [  5 225 ]   3   7   5  56  73   47  312  45  81  1.9  0.000126     150      1     40 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_225.shp -> [pool-1-thread-3]
+ 224 -  22 ==> [  5 223 ]   4   6   9  60  96   55   32  50  91  1.7  0.003900    1260      1     68 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_223.shp -> [pool-1-thread-1]
+ 225 -  23 ==> [  5 226 ]  13   4  11  59  99  109   27  41  88  0.4  0.008918    1290      1     66 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_226.shp -> [pool-1-thread-4]
+ 226 -  24 ==> [  5 229 ]   5  12   3  34  77   55  180  41  50  1.4  0.001245    1830      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_229.shp -> [pool-1-thread-4]
+ 227 -  25 ==> [  5 228 ]  14  13   8  46  97  139  341  49  55  1.0  0.033802     240      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_228.shp -> [pool-1-thread-1]
+ 228 -  26 ==> [  5 227 ]   7   3  12  46  99   86  256  40  88  1.7  0.000002     150      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_227.shp -> [pool-1-thread-3]
+ 229 -  27 ==> [  5 230 ]   5   3   9  35  74   27  256  36  33  0.9  0.000018     120      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_230.shp -> [pool-1-thread-4]
+ 230 -  28 ==> [  5 233 ]  13  15  15  44  88   78  180  40  59  1.1  0.001208    1830      1      4 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_233.shp -> [pool-1-thread-4]
+ 231 -  29 ==> [  5 231 ]  12   3   9  47  95   47   17  38  74  1.4  0.011331     360      1     62 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_231.shp -> [pool-1-thread-1]
+ 232 -  30 ==> [  5 232 ]   5   3  13  41  97  139   10  49  55  1.0  0.012127     300      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_232.shp -> [pool-1-thread-3]
+ 233 -  31 ==> [  5 234 ]  12  15  12  35  88   86  341  37  33  1.7  0.046878     330      1     56 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_234.shp -> [pool-1-thread-4]
+ 234 -  32 ==> [  5 237 ]  14  13  10  62  96   96  124  30  85  1.4  0.002108    1830      1     11 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_237.shp -> [pool-1-thread-4]
+ 235 -  33 ==> [  5 235 ]   4   6   6  60  90  109   32  31  98  1.7  0.003295    1140      1     64 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_235.shp -> [pool-1-thread-1]
+ 236 -  34 ==> [  5 236 ]  13   9  11  70  71   52  236  37  88  1.3  0.000060     420      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_236.shp -> [pool-1-thread-3]
+ 237 -  35 ==> [  5 238 ]  14  15  10  68  96   47  256  30  47  1.4  0.000015     330      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_238.shp -> [pool-1-thread-4]
+ 238 -  36 ==> [  5 240 ]  15   7   3  49  77   78   27  45  88  1.4  0.011604    1440      1     33 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_240.shp -> [pool-1-thread-3]
+ 239 -  37 ==> [  5 239 ]  10   3   9  58  94  109   17  30  92  1.4  0.021151     780      1     71 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_239.shp -> [pool-1-thread-1]
+ 240 -  38 ==> [  5 241 ]  15   9   9  48  84   78  256  30  92  0.9  0.000004     270      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_241.shp -> [pool-1-thread-4]
+Generation = 6 / Evaluation Duration = 180
+
+Evaluation.Start  -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 7 / 6 / 6 / 64 / 27 <---------
+ 241 -   1 ==> [  6 244 ]   3   7   5  68  73   96  312  45  81  1.9  0.000018     120      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_186.shp -> [pool-1-thread-4] - CACHED
+Going to wait for all the 37 threads in order to finish...
+ 242 -   2 ==> [  5 242 ]  11   4   9  62  95   78   10  30  92  0.7  0.014784     300      1     61 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_242.shp -> [pool-1-thread-3]
+ 243 -   3 ==> [  5 243 ]  11   9   6  46  74   27  124  41  46  0.9  0.002834     480      1     31 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_243.shp -> [pool-1-thread-1]
+ 244 -   4 ==> [  6 245 ]  11   9   6  46  74   27  124  30  46  0.9  0.002834     480      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_245.shp -> [pool-1-thread-4]
+ 245 -   5 ==> [  6 247 ]  15   7   3  65  77   78  105  41  38  1.9  0.004432    1830      1     36 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_247.shp -> [pool-1-thread-1]
+ 246 -   6 ==> [  6 249 ]   5   6  10  48  89   78  180  45  99  1.1  0.001572    1830      1      6 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_249.shp -> [pool-1-thread-1]
+ 247 -   7 ==> [  6 250 ]   5   6  10  49  89   78  180  40  99  1.1  0.001572    1830      1      7 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_250.shp -> [pool-1-thread-1]
+ 248 -   8 ==> [  6 246 ]   5  10  13  65  93   33  341  31  64  0.1  0.034500     180      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_246.shp -> [pool-1-thread-3]
+ 249 -   9 ==> [  6 248 ]   5   3   3  48  76   78   27  44  88  1.4  0.006967    1170      1     69 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_248.shp -> [pool-1-thread-4]
+ 250 -  10 ==> [  6 251 ]   5   6   2  60  75   46   32  50  58  1.7  0.002011     330      1     39 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_251.shp -> [pool-1-thread-1]
+ 251 -  11 ==> [  6 253 ]   5   6   9  60  73   55   36  31  58  1.7  0.000470     270      1     31 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_253.shp -> [pool-1-thread-4]
+ 252 -  12 ==> [  6 255 ]   5  13  13  65  97    1  341  49  64  0.1  0.002899    1830      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_4_194.shp -> [pool-1-thread-4] - CACHED
+ 253 -  13 ==> [  6 252 ]  11   9  10  62  84   70  256  30  92  0.9  0.000003     240      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_252.shp -> [pool-1-thread-3]
+ 254 -  14 ==> [  6 257 ]  14  15  10  68  96   47  256  30  47  1.4  0.000015     330      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_238.shp -> [pool-1-thread-3] - CACHED
+ 255 -  15 ==> [  6 254 ]  15   9   3  46  74   27  124  41  46  0.5  0.002668     480      1     31 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_254.shp -> [pool-1-thread-1]
+ 256 -  16 ==> [  6 256 ]   5   6  10  48  96   78  312  40  99  1.1  0.000036     150      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_256.shp -> [pool-1-thread-4]
+ 257 -  17 ==> [  6 259 ]  11   9   6  46  74   27  124  41  98  0.7  0.002834     480      1     34 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_259.shp -> [pool-1-thread-1]
+ 258 -  18 ==> [  6 261 ]   2  15  10  28  91   10  214  50  47  1.5  0.002282    1830      1      7 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_261.shp -> [pool-1-thread-1]
+All threads have been finished successfully.
+Going to consolidate all fitness results
+Evaluation.Finish -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 7 / 6 / 6 / 64 / 64 <---------
+
+ 259 -  19 ==> [  6 258 ]   4   6   2  60  96   55   32  30  91  0.4  0.003483    1080      1     66 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_258.shp -> [pool-1-thread-3]
+ 260 -  20 ==> [  6 260 ]  13   6  10  47  89  143  341  40  45  1.0  0.025321     180      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_260.shp -> [pool-1-thread-4]
+ 261 -  21 ==> [  6 264 ]   5   6  10  48  89   78  180  40  99  1.1  0.001572    1830      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_128.shp -> [pool-1-thread-4] - CACHED
+ 262 -  22 ==> [  6 265 ]  14  13  10  62  96   96  124  30  85  1.4  0.002108    1830      1     11 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_237.shp -> [pool-1-thread-4] - CACHED
+ 263 -  23 ==> [  6 262 ]   6   3  10  38  94   70   63  45  92  0.9  0.005028     660      1     61 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_262.shp -> [pool-1-thread-1]
+ 264 -  24 ==> [  6 267 ]   7  15   5  35  72    1  256  36  79  0.9  0.002683    1830      1      4 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_267.shp -> [pool-1-thread-1]
+ 265 -  25 ==> [  6 263 ]   7   3  13  48  73   96  351  42  47  1.1  0.023974     150      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_263.shp -> [pool-1-thread-3]
+ 266 -  26 ==> [  6 268 ]  14  10   9  62  96   47  124  30  81  1.4  0.003368    1830      1     28 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_268.shp -> [pool-1-thread-1]
+ 267 -  27 ==> [  6 266 ]  13   5  11  70  71   52  236  37  41  1.3  0.000043     300      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_266.shp -> [pool-1-thread-4]
+ 268 -  28 ==> [  6 271 ]  11   6  10  48  89   78  180  40  99  1.1  0.001546    1830      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_210.shp -> [pool-1-thread-4] - CACHED
+ 269 -  29 ==> [  6 269 ]  12   3   9  53  99  109  239  39  46  1.4  0.000041     300      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_269.shp -> [pool-1-thread-3]
+ 270 -  30 ==> [  6 270 ]  10   2   9  62 100  109   10  41  92  0.7  0.043165     810      1     73 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_270.shp -> [pool-1-thread-1]
+ 271 -  31 ==> [  6 272 ]   4   6   6  60  90   78   32  49  98  1.7  0.003824    1290      1     66 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_272.shp -> [pool-1-thread-4]
+ 272 -  32 ==> [  6 273 ]   4   6   2  60  96   55   32  50  58  1.7  0.000974     300      1     31 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_273.shp -> [pool-1-thread-3]
+ 273 -  33 ==> [  6 274 ]   3   7   2  56  73   47  180  30  81  1.1  0.001269    1830      1     18 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_274.shp -> [pool-1-thread-1]
+ 274 -  34 ==> [  6 277 ]   7   3  12  46  99   86  256  40  88  1.7  0.000002     150      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_227.shp -> [pool-1-thread-1] - CACHED
+ 275 -  35 ==> [  6 278 ]   5  13   6  48  97    1  180  49  64  0.1  0.002480    1830      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_278.shp -> [pool-1-thread-1]
+ 276 -  36 ==> [  6 275 ]   3   7   5  68  73   73  312  45  81  1.9  0.000017     120      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_275.shp -> [pool-1-thread-4]
+ 277 -  37 ==> [  6 279 ]   5   9  13  46  74   27  124  41  46  0.9  0.003217     480      1     38 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_279.shp -> [pool-1-thread-1]
+Generation = 7 / Evaluation Duration = 180
+
+Evaluation.Start  -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 8 / 7 / 7 / 64 / 30 <---------
+Going to wait for all the 34 threads in order to finish...
+ 278 -   1 ==> [  7 281 ]  14  13  10  60  96   96  124  30  85  1.4  0.002108    1830      1     11 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_281.shp -> [pool-1-thread-1]
+ 279 -   2 ==> [  6 276 ]  10   5   9  58  94  109   17  50  92  1.4  0.043374    1230      1     65 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_276.shp -> [pool-1-thread-3]
+ 280 -   3 ==> [  6 280 ]   6   9  10  38  94   70   63  39  68  0.1  0.000178     960      1     48 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_280.shp -> [pool-1-thread-4]
+ 281 -   4 ==> [  7 282 ]   4   6   2  58  96   55   32  50  58  1.7  0.000974     300      1     31 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_282.shp -> [pool-1-thread-1]
+ 282 -   5 ==> [  7 283 ]   4   6   9  60  96   55   10  50  92  1.7  0.068846    1080      1     70 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_283.shp -> [pool-1-thread-3]
+ 283 -   6 ==> [  7 284 ]  13   9   6  60  90  109  243  31  98  1.7  0.000036     390      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_284.shp -> [pool-1-thread-4]
+ 284 -   7 ==> [  7 287 ]  11   9   6  46  74   27  124  41  46  0.9  0.002834     480      1     31 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_243.shp -> [pool-1-thread-4] - CACHED
+ 285 -   8 ==> [  7 288 ]   5  13   6  48  97    1  180  45  64  0.1  0.002480    1830      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_288.shp -> [pool-1-thread-4]
+ 286 -   9 ==> [  7 286 ]   3   7   7  26  73   47  180  48  91  1.1  0.001294    1830      1     17 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_286.shp -> [pool-1-thread-3]
+ 287 -  10 ==> [  7 285 ]   5   3   9  41  97  139   10  49  55  1.0  0.012127     300      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_285.shp -> [pool-1-thread-1]
+ 288 -  11 ==> [  7 289 ]   3   7  10  56  73   47  312  45  81  1.9  0.000061     120      1     31 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_289.shp -> [pool-1-thread-4]
+ 289 -  12 ==> [  7 291 ]   3   7  11  56  73   47  312  45  81  1.9  0.000126     150      1     41 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_291.shp -> [pool-1-thread-1]
+ 290 -  13 ==> [  7 290 ]  10   2   9  62 100  109   32  41  92  0.7  0.003568    1200      1     64 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_290.shp -> [pool-1-thread-3]
+All threads have been finished successfully.
+Going to consolidate all fitness results
+Evaluation.Finish -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 8 / 7 / 7 / 64 / 64 <---------
+
+ 291 -  14 ==> [  7 293 ]   7  12   2  35  72   38  256  47  79  1.4  0.000011     180      1     37 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_293.shp -> [pool-1-thread-1]
+ 292 -  15 ==> [  7 295 ]  14  15  10  68  96   47  256  30  47  1.4  0.000015     330      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_238.shp -> [pool-1-thread-1] - CACHED
+ 293 -  16 ==> [  7 292 ]   6   7  10  38  94   70   63  45  81  0.9  0.002808    1140      1     65 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_292.shp -> [pool-1-thread-4]
+There was an error when trying to save the .jpg image for prediction file: /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_135.shp 
+ 294 -  17 ==> [  3 135 ]  14  11   2  67  76   75   63  35  42  0.3  NaN    1680      1   2000 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_135.shp -> [pool-1-thread-2]
+ 295 -  18 ==> [  7 297 ]  13   6   6  60 100   55   32  50  58  1.7  0.001223     390      1     31 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_297.shp -> [pool-1-thread-4]
+ 296 -  19 ==> [  7 299 ]  10  14  13  65  93    1  341  49  64  0.1  0.002940    1830      1      4 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_299.shp -> [pool-1-thread-4]
+ 297 -  20 ==> [  7 294 ]  12   9  10  38  81   70   63  40  70  0.1  0.001216    1140      1     66 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_294.shp -> [pool-1-thread-3]
+ 298 -  21 ==> [  7 298 ]  15   3   3  49  77   78   27  44  46  1.4  0.001555     330      1     31 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_298.shp -> [pool-1-thread-2]
+ 299 -  22 ==> [  7 296 ]  10   9   5  70  71   52  236  37  88  1.3  0.000061     420      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_296.shp -> [pool-1-thread-1]
+ 300 -  23 ==> [  7 301 ]   5   3  13  62  97  139   10  49  55  1.0  0.009811     240      1     41 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_301.shp -> [pool-1-thread-3]
+ 301 -  24 ==> [  7 303 ]  12   4   9  41  96   47   82  30  81  1.4  0.002659    1830      1     32 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_303.shp -> [pool-1-thread-1]
+ 302 -  25 ==> [  7 305 ]   5   6   5  48  89   78  180  40  99  1.1  0.001572    1830      1      6 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_305.shp -> [pool-1-thread-1]
+ 303 -  26 ==> [  7 304 ]   6   5  11  38  89   70   63  30  47  0.7  0.000204    1830      1     18 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_304.shp -> [pool-1-thread-3]
+ 304 -  27 ==> [  7 300 ]   6   7  10  38  96   70   17  45  92  0.9  0.037761    1170      1     71 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_300.shp -> [pool-1-thread-4]
+ 305 -  28 ==> [  7 302 ]   5   5   3  58  94  109   63  50  83  1.4  0.000706     300      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_302.shp -> [pool-1-thread-2]
+ 306 -  29 ==> [  7 307 ]  15   6   6  62  90  109   32  45  98  0.5  0.005975    1560      1     39 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_307.shp -> [pool-1-thread-3]
+ 307 -  30 ==> [  7 309 ]   5   6   6  48  89   78  323  40  99  0.9  0.000912     150      1     41 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_309.shp -> [pool-1-thread-2]
+ 308 -  31 ==> [  7 311 ]  13   6  10  47  89  143  341  40  45  1.0  0.025321     180      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_260.shp -> [pool-1-thread-2] - CACHED
+ 309 -  32 ==> [  7 306 ]  13   5   6  70  71   52  236  37  41  1.3  0.000043     300      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_306.shp -> [pool-1-thread-1]
+ 310 -  33 ==> [  7 308 ]   5   5  13  60  94  109   17  50  92  1.4  0.039337    1200      1     71 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_308.shp -> [pool-1-thread-4]
+ 311 -  34 ==> [  7 310 ]   6   5   6  60  89   70   63  44  47  0.9  0.000074     390      1     48 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_310.shp -> [pool-1-thread-3]
+Generation = 8 / Evaluation Duration = 180
+
+Evaluation.Start  -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 9 / 8 / 8 / 64 / 30 <---------
+Going to wait for all the 34 threads in order to finish...
+ 312 -   1 ==> [  7 312 ]  13   6  10  47  91   85  341  39  45  1.1  0.024865     180      1     49 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_312.shp -> [pool-1-thread-2]
+ 313 -   2 ==> [  7 314 ]   6   5   2  38  89   70   63  49  47  0.7  0.000017     150      1     37 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_314.shp -> [pool-1-thread-4]
+ 314 -   3 ==> [  7 313 ]   4   6   2  38  96   55   32  31  91  0.4  0.003418    1080      1     63 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_313.shp -> [pool-1-thread-1]
+ 315 -   4 ==> [  8 315 ]   8   5  11  38  89   70   63  30  47  0.7  0.000169     390      1     54 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_315.shp -> [pool-1-thread-3]
+ 316 -   5 ==> [  8 317 ]   5   5   3  58  94  109   63  40  83  1.4  0.001351     930      1     35 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_317.shp -> [pool-1-thread-4]
+ 317 -   6 ==> [  8 316 ]   6   5  15  38  89   70   63  45  47  0.4  0.000039     300      1     52 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_316.shp -> [pool-1-thread-2]
+ 318 -   7 ==> [  8 320 ]   5   6   5  48  89   78  180  40  55  1.1  0.001572    1830      1      6 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_320.shp -> [pool-1-thread-4]
+ 319 -   8 ==> [  8 321 ]   5   6  10  48  89   78  180  40  92  1.1  0.001572    1830      1      6 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_321.shp -> [pool-1-thread-2]
+ 320 -   9 ==> [  8 318 ]   2   3  13  46  92   27   77  41  46  0.9  0.002328     210      1     47 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_318.shp -> [pool-1-thread-1]
+ 321 -  10 ==> [  8 324 ]  10  14  10  65  93    1  341  49  64  0.1  0.002940    1830      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_324.shp -> [pool-1-thread-1]
+ 322 -  11 ==> [  8 319 ]   5  13   8  46 100  146  341  49  55  1.4  0.029381     210      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_319.shp -> [pool-1-thread-3]
+ 323 -  12 ==> [  8 322 ]  13  12  10  47  79  143  341  45  41  1.0  0.033360     240      1     39 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_322.shp -> [pool-1-thread-4]
+ 324 -  13 ==> [  8 323 ]  15   9   3  34  77  122  236  41  88  1.4  0.000297    1830      1     42 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_323.shp -> [pool-1-thread-2]
+ 325 -  14 ==> [  8 328 ]   8   6  10  49  89  122   67  40  45  1.4  0.000243    1830      1      7 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_328.shp -> [pool-1-thread-2]
+ 326 -  15 ==> [  8 329 ]  13   6   4  47  89  143  209  40  45  1.0  0.001131    1830      1      8 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_329.shp -> [pool-1-thread-2]
+ 327 -  16 ==> [  8 330 ]   4   6   2  60  96   55   32  50  58  1.7  0.000974     300      1     31 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_273.shp -> [pool-1-thread-2] - CACHED
+ 328 -  17 ==> [  8 326 ]   8   6  10  51  89  122   67  40  67  1.4  0.001014    1830      1     49 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_326.shp -> [pool-1-thread-3]
+ 329 -  18 ==> [  8 325 ]  14  13  10  46  97   36  341  49  55  1.0  0.049496     270      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_325.shp -> [pool-1-thread-1]
+ 330 -  19 ==> [  8 333 ]   5   3  13  41  97  139   10  49  55  1.0  0.012127     300      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_5_232.shp -> [pool-1-thread-1] - CACHED
+ 331 -  20 ==> [  8 327 ]   8   3  10  48  89    7   67  46  45  1.4  0.113229    1710      1     42 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_327.shp -> [pool-1-thread-4]
+ 332 -  21 ==> [  8 331 ]  13   5   6  70  71  122   32  37  41  1.3  0.000763     270      1     39 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_331.shp -> [pool-1-thread-2]
+ 333 -  22 ==> [  8 336 ]   5   5   3  58  96  109  180  50  83  1.4  0.001655    1830      1      6 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_336.shp -> [pool-1-thread-2]
+All threads have been finished successfully.
+Going to consolidate all fitness results
+Evaluation.Finish -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 9 / 8 / 8 / 64 / 64 <---------
+
+ 334 -  23 ==> [  8 334 ]   4   6   6  60  90  109   63  31  98  1.7  0.000808    1200      1     46 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_334.shp -> [pool-1-thread-1]
+ 335 -  24 ==> [  8 335 ]   8   6   8  48  89   47   67  40  45  1.4  0.001269     450      1     39 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_335.shp -> [pool-1-thread-4]
+ 336 -  25 ==> [  8 332 ]   6   7  10  38  89   70   17  40  92  0.9  0.034138    1110      1     72 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_332.shp -> [pool-1-thread-3]
+ 337 -  26 ==> [  8 337 ]   5   5   3  58  94  109   63  50  81  0.7  0.000697     300      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_337.shp -> [pool-1-thread-2]
+ 338 -  27 ==> [  8 341 ]   5   6  10  48  89   78  180  40  99  1.1  0.001572    1830      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_2_128.shp -> [pool-1-thread-2] - CACHED
+Couldn't compare non-finished scenario result for individual. Error message: found non-noded intersection between LINESTRING ( 480468.9202673006 4695850.682274079, 480469.19357374706 4695857.347278506 ) and LINESTRING ( 480468.93760583986 4695851.10510143, 480468.9209869721 4695851.118665735 ) [ (480468.93760583986, 4695851.10510143, NaN) ]
+ 339 -  28 ==> [  8 340 ]  12   4   9  41  96   52   82  30  83  1.4  0.000564     360      1     38 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_340.shp -> [pool-1-thread-3]
+ 340 -  29 ==> [  8 338 ]  14   6  13  41  97  139   10  49  99  1.0  0.070972    1500      1     63 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_338.shp -> [pool-1-thread-1]
+ 341 -  30 ==> [  8 342 ]   3   6  10  27  89   78   67  50  45  1.0  0.000216     240      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_342.shp -> [pool-1-thread-2]
+There was an error when trying to save the .jpg image for prediction file: /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_339.shp 
+ 342 -  31 ==> [  8 339 ]   6   6  10  38  89  122   67  40  45  1.4  NaN    1830      1     85 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_339.shp -> [pool-1-thread-4]
+ 343 -  32 ==> [  8 346 ]   6   9  10  38  83   70  161  30  99  1.4  0.001547    1830      1      4 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_346.shp -> [pool-1-thread-4]
+ 344 -  33 ==> [  8 343 ]   5   6  12  48  89   78  323  40  99  0.6  0.000912     150      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_343.shp -> [pool-1-thread-3]
+ 345 -  34 ==> [  8 347 ]   2  15  13  28  91  139  214  30  98  1.5  0.000758    1830      1      6 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_347.shp -> [pool-1-thread-4]
+Generation = 9 / Evaluation Duration = 180
+
+Evaluation.Start  -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 10 / 9 / 9 / 64 / 31 <---------
+Going to wait for all the 33 threads in order to finish...
+ 346 -   1 ==> [  8 344 ]   5   6  13  48  96  123   63  40  99  1.1  0.000023     180      1     61 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_344.shp -> [pool-1-thread-1]
+Mar 30, 2022 10:48:11 AM org.geotools.referencing.factory.DeferredAuthorityFactory disposeBackingStore
+INFO: Disposing class org.geotools.referencing.factory.epsg.ThreadedHsqlEpsgFactory backing store
+Mar 30, 2022 10:48:11 AM org.hsqldb.persist.Logger logInfoEvent
+INFO: Database closed
+ 347 -   2 ==> [  8 348 ]  15   3   3  48  77   78   27  44  46  0.9  0.001980     420      1     58 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_348.shp -> [pool-1-thread-3]
+ 348 -   3 ==> [  9 351 ]  14  13   8  32  97  108  171  49  57  1.4  0.001366    1830      1      4 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_351.shp -> [pool-1-thread-3]
+ 349 -   4 ==> [  9 349 ]  15   3   3  48  77   78   27  44  46  0.9  0.001980     420      1     57 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_349.shp -> [pool-1-thread-4]
+ 350 -   5 ==> [  8 345 ]   6   9  10  48  96   70   17  50  73  0.9  0.028155    1050      1     81 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_345.shp -> [pool-1-thread-2]
+ 351 -   6 ==> [  9 352 ]   5   6   9  48  89   78  180  40  99  1.1  0.001572    1830      1      6 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_352.shp -> [pool-1-thread-3]
+ 352 -   7 ==> [  9 350 ]   6   3  10  38  94   44   63  31  92  0.9  0.004456    1080      1     63 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_350.shp -> [pool-1-thread-1]
+ 353 -   8 ==> [  9 353 ]   5   5   2  58  94  109   63  50  81  0.7  0.000697     300      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_353.shp -> [pool-1-thread-4]
+ 354 -   9 ==> [  9 355 ]  15   6   6  62  90   90   32  45  98  0.5  0.007406    1710      1     58 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_355.shp -> [pool-1-thread-3]
+ 355 -  10 ==> [  9 354 ]   6   5   3  38  94  109   63  50  81  0.7  0.003480    1380      1     61 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_354.shp -> [pool-1-thread-2]
+ 356 -  11 ==> [  9 359 ]   6   5   6  60  89   70   63  44  47  0.9  0.000074     390      1     48 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_310.shp -> [pool-1-thread-2] - CACHED
+ 357 -  12 ==> [  9 358 ]  14   9  10  38  83   70  161  30  99  1.4  0.001529    1830      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_358.shp -> [pool-1-thread-3]
+ 358 -  13 ==> [  9 357 ]   5   6   6  48  89   78  323  40  81  0.9  0.000912     150      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_357.shp -> [pool-1-thread-4]
+ 359 -  14 ==> [  9 356 ]   3   7   2  48  77   78  254  44  88  1.4  0.000004     210      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_356.shp -> [pool-1-thread-1]
+ 360 -  15 ==> [  9 360 ]  15   6   3  48  77   78   27  44  46  0.9  0.002971     450      1     52 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_360.shp -> [pool-1-thread-2]
+All threads have been finished successfully.
+Going to consolidate all fitness results
+Evaluation.Finish -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 10 / 9 / 9 / 64 / 64 <---------
+
+ 361 -  16 ==> [  9 363 ]  11   7   6  39  94   79  330  31  98  1.7  0.004301     180      1     31 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_363.shp -> [pool-1-thread-1]
+ 362 -  17 ==> [  9 365 ]   5   9  13  46  74   27  124  41  46  0.9  0.003217     480      1     38 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_6_279.shp -> [pool-1-thread-1] - CACHED
+ 363 -  18 ==> [  9 366 ]   5   6  13  48  96  123   63  40  99  1.1  0.000023     180      1     61 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_344.shp -> [pool-1-thread-1] - CACHED
+ 364 -  19 ==> [  9 364 ]   5   5  10  48  89   78  180  40  99  1.1  0.001655    1830      1      8 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_364.shp -> [pool-1-thread-2]
+ 365 -  20 ==> [  9 368 ]   6   6  10  38  89  122   67  40  45  1.4  NaN    1830      1     85 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_339.shp -> [pool-1-thread-2] - CACHED
+ 366 -  21 ==> [  9 369 ]   8   6  10  29  89  122   67  40  47  1.4  0.000020     150      1      5 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_369.shp -> [pool-1-thread-2]
+ 367 -  22 ==> [  9 362 ]   6   6   3  38  89   70   63  49  47  0.7  0.000136     330      1     56 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_362.shp -> [pool-1-thread-4]
+ 368 -  23 ==> [  9 361 ]   5   7  10  38  96   70   17  45  79  0.7  0.026418    1020      1     84 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_361.shp -> [pool-1-thread-3]
+ 369 -  24 ==> [  9 367 ]   6   3  10  38  89  122   67  40  45  1.4  0.000274     390      1     39 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_367.shp -> [pool-1-thread-1]
+ 370 -  25 ==> [  9 370 ]   4   7   5  56  73   47  312  45  99  1.9  0.000115     150      1     40 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_370.shp -> [pool-1-thread-2]
+ 371 -  26 ==> [  9 374 ]   6   5   6  60  89   70   63  44  47  0.9  0.000074     390      1     48 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_310.shp -> [pool-1-thread-2] - CACHED
+ 372 -  27 ==> [  9 371 ]   6   5  13  60  89   70   63  44  68  0.9  0.000042     240      1     32 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_371.shp -> [pool-1-thread-4]
+ 373 -  28 ==> [  9 375 ]   6   5   6  38  89   70   63  45  45  0.7  0.000115     300      1     35 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_375.shp -> [pool-1-thread-2]
+ 374 -  29 ==> [  9 377 ]   5   5  13  60  94  109   17  50  92  1.4  0.039337    1200      1     71 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_308.shp -> [pool-1-thread-2] - CACHED
+ 375 -  30 ==> [  9 373 ]   5   5   3  58  90   43   63  50  83  1.4  0.000948     240      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_373.shp -> [pool-1-thread-1]
+ 376 -  31 ==> [  9 372 ]   8   6  15  36  97   89   10  41  99  0.4  0.072403    1110      1     72 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_372.shp -> [pool-1-thread-3]
+ 377 -  32 ==> [  9 378 ]   6   5   3  58  89   70   63  49  47  0.7  0.000017     150      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_378.shp -> [pool-1-thread-2]
+ 378 -  33 ==> [  9 376 ]   6  12  10  38  89   70   17  40  92  0.9  0.039383    1170      1     64 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_376.shp -> [pool-1-thread-4]
+Generation = 10 / Evaluation Duration = 180
+
+Going to perform the last evaluation...
+Evaluation.Start  -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 11 / 10 / 10 / 64 / 26 <---------
+Going to wait for all the 38 threads in order to finish...
+ 379 -   1 ==> [  9 379 ]   7   6  10  27  89   78   67  50  45  1.0  0.000261     270      1     30 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_379.shp -> [pool-1-thread-1]
+ 380 -   2 ==> [  9 380 ]  14   6   2  35  72  103  110  47  92  1.4  0.003000    1830      1     34 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_380.shp -> [pool-1-thread-3]
+ 381 -   3 ==> [ 10 383 ]  15   3   3  48  90   78   27  44  98  0.9  0.011773    1470      1     32 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_10_383.shp -> [pool-1-thread-1]
+ 382 -   4 ==> [ 10 382 ]   5   6  10  38  94  122   67  40  45  1.4  0.000407     480      1     45 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_10_382.shp -> [pool-1-thread-4]
+ 383 -   5 ==> [ 10 386 ]  14   6  13  41  97  139   10  49  99  1.0  0.070972    1500      1     63 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_338.shp -> [pool-1-thread-4] - CACHED
+ 384 -   6 ==> [  9 381 ]  12   9  10  38  81  109   63  40  70  0.1  0.001231    1140      1     64 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_381.shp -> [pool-1-thread-2]
+ 385 -   7 ==> [ 10 384 ]   7   6  10  27  89   78  228  41  45  0.5  0.000492    1830      1     50 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_10_384.shp -> [pool-1-thread-3]
+ 386 -   8 ==> [ 10 385 ]  12  11  15  41  96  109   82  30  83  1.4  0.000386     480      1     61 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_10_385.shp -> [pool-1-thread-1]
+ 387 -   9 ==> [ 10 387 ]  15   7   3  49  77   78  236  50  88  1.4  0.000079     480      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_10_387.shp -> [pool-1-thread-4]
+ 388 -  10 ==> [ 10 389 ]  12   9  10  38  81  109    7  40  48  0.1  0.013631     240      1     60 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_10_389.shp -> [pool-1-thread-3]
+ 389 -  11 ==> [ 10 388 ]   8   6   3  36  97   89   10  49  99  0.4  0.082802    1200      1     71 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_10_388.shp -> [pool-1-thread-2]
+ 390 -  12 ==> [ 10 391 ]   6   7  10  25  96   70   17  42  92  1.4  0.033940    1110      1     66 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_10_391.shp -> [pool-1-thread-4]
+ 391 -  13 ==> [ 10 390 ]   5   5  13  47  89  109   17  50  92  1.4  0.039337    1200      1     71 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_10_390.shp -> [pool-1-thread-1]
+All threads have been finished successfully.
+Going to consolidate all fitness results
+Evaluation.Finish -->  #Evaluation Calls / GA.generation / maxPhenGeneration / popSize / nPhenEvaluated : 11 / 10 / 10 / 64 / 64 <---------
+
+Last evaluation has been performed.
+Failed! null. Coudn't retrieve individual [[[[8]],[[6]],[[11]],[[48]],[[70]],[[122]],[[246]],[[40]],[[45]],[[4]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[3]],[[6]],[[10]],[[27]],[[82]],[[78]],[[237]],[[44]],[[61]],[[-8]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[6]],[[4]],[[9]],[[41]],[[96]],[[52]],[[82]],[[30]],[[99]],[[4]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[9]],[[13]],[[10]],[[58]],[[96]],[[1]],[[17]],[[45]],[[88]],[[-1]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[7]],[[7]],[[2]],[[35]],[[77]],[[137]],[[93]],[[47]],[[79]],[[-1]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[12]],[[6]],[[10]],[[38]],[[88]],[[44]],[[67]],[[40]],[[45]],[[4]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[15]],[[7]],[[3]],[[49]],[[77]],[[78]],[[256]],[[41]],[[88]],[[4]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[6]],[[5]],[[6]],[[38]],[[89]],[[70]],[[256]],[[45]],[[45]],[[-3]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[5]],[[6]],[[6]],[[48]],[[89]],[[78]],[[323]],[[40]],[[47]],[[-1]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[6]],[[5]],[[3]],[[58]],[[89]],[[70]],[[63]],[[31]],[[99]],[[-3]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[15]],[[5]],[[3]],[[58]],[[90]],[[43]],[[63]],[[45]],[[83]],[[4]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[3]],[[12]],[[2]],[[35]],[[96]],[[38]],[[63]],[[32]],[[66]],[[4]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[10]],[[6]],[[6]],[[60]],[[90]],[[14]],[[32]],[[31]],[[46]],[[7]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[5]],[[5]],[[2]],[[27]],[[94]],[[52]],[[63]],[[50]],[[81]],[[-3]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[6]],[[12]],[[10]],[[38]],[[89]],[[70]],[[17]],[[40]],[[83]],[[-1]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[6]],[[3]],[[10]],[[38]],[[84]],[[70]],[[63]],[[49]],[[85]],[[-1]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[6]],[[6]],[[10]],[[38]],[[94]],[[122]],[[67]],[[39]],[[45]],[[4]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[4]],[[3]],[[3]],[[48]],[[77]],[[78]],[[27]],[[44]],[[46]],[[-1]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[6]],[[9]],[[10]],[[38]],[[83]],[[70]],[[161]],[[30]],[[92]],[[4]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[3]],[[6]],[[10]],[[48]],[[94]],[[78]],[[67]],[[50]],[[45]],[[0]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[8]],[[6]],[[10]],[[27]],[[89]],[[122]],[[67]],[[50]],[[45]],[[4]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[3]],[[6]],[[10]],[[58]],[[89]],[[78]],[[67]],[[50]],[[45]],[[0]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[6]],[[5]],[[3]],[[58]],[[90]],[[43]],[[63]],[[50]],[[83]],[[4]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[13]],[[6]],[[6]],[[41]],[[97]],[[139]],[[276]],[[49]],[[99]],[[0]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[5]],[[7]],[[3]],[[49]],[[72]],[[78]],[[236]],[[41]],[[88]],[[4]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[4]],[[7]],[[15]],[[48]],[[77]],[[78]],[[27]],[[44]],[[88]],[[4]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Failed! null. Coudn't retrieve individual [[[[6]],[[5]],[[3]],[[58]],[[89]],[[70]],[[67]],[[50]],[[47]],[[-3]]]] from cache [com.edigley.tsp.executors.FarsiteExecutionMemoization@71cf1b07]
+Best calibrated results:
+ 14  11   2  67  76   75   63  35  42  0.3  NaN    1680      1   2000 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_135.shp
+  6  11   2  67  89   12   14  35  88  0.3  0.249115    1530      1     38 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_164.shp
+ 11   3   9  28  95    6   17  44  37  1.4  0.193721    1830      1     34 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_67.shp
+  8   3  10  48  89    7   67  46  45  1.4  0.113229    1710      1     42 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_327.shp
+  8   6   3  36  97   89   10  49  99  0.4  0.082802    1200      1     71 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_10_388.shp
+  8   6  15  36  97   89   10  41  99  0.4  0.072403    1110      1     72 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_9_372.shp
+ 14   6  13  41  97  139   10  49  99  1.0  0.070972    1500      1     63 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_8_338.shp
+ 12  15   6  46  88   86   10  44  99  1.7  0.070653    1560      1     51 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_1_93.shp
+  4   6   9  60  96   55   10  50  92  1.7  0.068846    1080      1     70 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_7_283.shp
+ 14  13  13  28  91   36  343  45  98  1.5  0.052956     240      1     38 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_3_150.shp
+Going to shutdown the thread pool...
+Process execution was interrupted: null
+Process execution was interrupted: null
+Process execution was interrupted: null
+Process execution was interrupted: null
+Going to wait for all the threads in order to finish...
+ 392 -  14 ==> [ 10 394 ]   6   4   9  41  96   52   82  30  99  1.4  0.000070     180      1      9 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_10_394.shp -> [pool-1-thread-4]
+ 393 -  15 ==> [ 10 393 ]   3   6  10  27  82   78  237  44  61  0.2  0.000047     330      1     53 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_10_393.shp -> [pool-1-thread-2]
+ 394 -  16 ==> [ 10 392 ]   8   6  11  48  70  122  246  40  45  1.4  0.000019     270      1     55 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_10_392.shp -> [pool-1-thread-3]
+ 395 -  17 ==> [ 10 395 ]   9  13  10  58  96    1   17  45  88  0.9  0.003759    1830      1      6 /home/edigley/git-phd-workspace/fire-scenarios/jonquera/output/shape_10_395.shp -> [pool-1-thread-1]
+All threads have been finished successfully.
+null device 
+          1 
+0.84user 0.02system 0:01.14elapsed 75%CPU (0avgtext+0avgdata 73408maxresident)k
+1120inputs+112outputs (12major+23445minor)pagefaults 0swaps
+nautilus /home/edigley/git-phd-workspace/cloudcom2022/executions/jonquera/2022-03-30_094739_strategy_agof_seed_5638/images/generations/
+edigley@cariri:~/phd_uab/git-phd-workspace/two-stage-prediction$ 

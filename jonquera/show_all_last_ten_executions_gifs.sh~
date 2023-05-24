@@ -1,0 +1,2 @@
+cd /home/edigley/phd_uab/git-phd-workspace/cloudcom2022/executions/jonquera/ && ls -l | tr -s ' ' | cut -d ' ' -f9- | egrep -v "(agof|png|txt)" | xargs -n1 -I {} echo firefox file:///home/edigley/phd_uab/git-phd-workspace/cloudcom2022/executions/jonquera/{}/images/generations/index.html "&" | tail -n 10
+
